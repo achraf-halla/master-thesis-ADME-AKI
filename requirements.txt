@@ -13,9 +13,5 @@ transformers==4.50.3
 jupyterlab
 ipywidgets
 notebook
-networkx>=3.5                                                                   rdkit-pypi==2023.9.6
-TXT   
-git add environment.yml requirements.txt
-git commit -m "Add environment.yml and requirements.txt for reproducible environment"
-git push origin main
-
+networkx>=3.5                                                                   
+rdkit-pypi==2023.9.6
