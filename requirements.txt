@@ -1,0 +1,21 @@
+pytdc==1.1.15
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.6.1
+matplotlib
+seaborn==0.13.2
+tqdm
+mordred==1.2.0
+gget==0.29.2
+evaluate==0.4.2
+datasets==2.19.2
+transformers==4.50.3
+jupyterlab
+ipywidgets
+notebook
+networkx>=3.5                                                                   rdkit-pypi==2023.9.6
+TXT   
+git add environment.yml requirements.txt
+git commit -m "Add environment.yml and requirements.txt for reproducible environment"
+git push origin main
+

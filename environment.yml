@@ -1,0 +1,28 @@
+name: thesis-adme
+channels:
+  - conda-forge
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - numpy=1.26.4
+  - pandas=2.2.2
+  - scikit-learn=1.6.1
+  - matplotlib
+  - seaborn=0.13.2
+  - tqdm
+  - rdkit=2023.9.6
+  - openbabel
+  - pip:
+    - pytdc==1.1.15
+    - mordred==1.2.0
+    - gget==0.29.2
+    - evaluate==0.4.2
+    - datasets==2.19.2
+    - transformers==4.50.3
+    - jupyterlab
+    - ipywidgets
+    - notebook
+    - graphviz
+    - networkx>=3.5
