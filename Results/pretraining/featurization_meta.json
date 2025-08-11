@@ -1,0 +1,413 @@
+{
+  "cols": [
+    "MolWt",
+    "HeavyAtomCount",
+    "ExactMolWt",
+    "MolLogP",
+    "MolMR",
+    "TPSA",
+    "LabuteASA",
+    "BalabanJ",
+    "BertzCT",
+    "Chi0",
+    "Chi1",
+    "Chi2n",
+    "Chi3n",
+    "Chi4n",
+    "Chi2v",
+    "Chi3v",
+    "Chi4v",
+    "HallKierAlpha",
+    "Kappa1",
+    "Kappa2",
+    "Kappa3",
+    "NumHAcceptors",
+    "NumHDonors",
+    "NumRotatableBonds",
+    "NumRadicalElectrons",
+    "RingCount",
+    "NumAromaticRings",
+    "NumAliphaticRings",
+    "NumSaturatedRings",
+    "NumHeterocycles",
+    "FractionCSP3",
+    "NumSpiroAtoms",
+    "NumBridgeheadAtoms",
+    "FormalCharge",
+    "NumValenceElectrons",
+    "NumHeteroatoms",
+    "NHOHCount",
+    "NOCount",
+    "NumAmideBonds",
+    "QED",
+    "CrippenLogP",
+    "CrippenMR",
+    "GasteigerCharge_mean",
+    "GasteigerCharge_min",
+    "GasteigerCharge_max",
+    "PEOE_VSA_1",
+    "PEOE_VSA_2",
+    "PEOE_VSA_3",
+    "PEOE_VSA_4",
+    "PEOE_VSA_5",
+    "PEOE_VSA_6",
+    "PEOE_VSA_7",
+    "PEOE_VSA_8",
+    "PEOE_VSA_9",
+    "PEOE_VSA_10",
+    "PEOE_VSA_11",
+    "PEOE_VSA_12",
+    "PEOE_VSA_13",
+    "PEOE_VSA_14",
+    "SMR_VSA_1",
+    "SMR_VSA_2",
+    "SMR_VSA_3",
+    "SMR_VSA_4",
+    "SMR_VSA_5",
+    "SMR_VSA_6",
+    "SMR_VSA_7",
+    "SMR_VSA_9",
+    "SMR_VSA_10",
+    "SlogP_VSA_1",
+    "SlogP_VSA_2",
+    "SlogP_VSA_3",
+    "SlogP_VSA_4",
+    "SlogP_VSA_5",
+    "SlogP_VSA_6",
+    "SlogP_VSA_7",
+    "SlogP_VSA_8",
+    "SlogP_VSA_10",
+    "SlogP_VSA_11",
+    "SlogP_VSA_12"
+  ],
+  "indicator_cols": [],
+  "imputer": {
+    "type": "median",
+    "path": "models/scalers/desc_imputer_median.pkl"
+  },
+  "scalers": {
+    "path": "models/scalers/desc_scalers.pkl",
+    "per_column": {
+      "MolWt": {
+        "type": "robust",
+        "skew": 2.2536110458956458
+      },
+      "HeavyAtomCount": {
+        "type": "robust",
+        "skew": 2.0439349134118867
+      },
+      "ExactMolWt": {
+        "type": "robust",
+        "skew": 2.256405143345335
+      },
+      "MolLogP": {
+        "type": "standard",
+        "skew": -0.5713865806084898
+      },
+      "MolMR": {
+        "type": "robust",
+        "skew": 1.7545360236343992
+      },
+      "TPSA": {
+        "type": "robust",
+        "skew": 3.461792719077534
+      },
+      "LabuteASA": {
+        "type": "robust",
+        "skew": 2.0345165155791785
+      },
+      "BalabanJ": {
+        "type": "standard",
+        "skew": 0.8607795007852341
+      },
+      "BertzCT": {
+        "type": "robust",
+        "skew": 1.4941803016557902
+      },
+      "Chi0": {
+        "type": "robust",
+        "skew": 2.3265033206844534
+      },
+      "Chi1": {
+        "type": "robust",
+        "skew": 1.9129155011952628
+      },
+      "Chi2n": {
+        "type": "robust",
+        "skew": 1.9688416360600822
+      },
+      "Chi3n": {
+        "type": "robust",
+        "skew": 1.7336543997287692
+      },
+      "Chi4n": {
+        "type": "robust",
+        "skew": 1.856028276452847
+      },
+      "Chi2v": {
+        "type": "robust",
+        "skew": 2.1570782942020252
+      },
+      "Chi3v": {
+        "type": "robust",
+        "skew": 1.5474418151781615
+      },
+      "Chi4v": {
+        "type": "robust",
+        "skew": 1.6366511933960928
+      },
+      "HallKierAlpha": {
+        "type": "standard",
+        "skew": -0.5800453452873744
+      },
+      "Kappa1": {
+        "type": "robust",
+        "skew": 2.7858197965623632
+      },
+      "Kappa2": {
+        "type": "robust",
+        "skew": 2.94011918095666
+      },
+      "Kappa3": {
+        "type": "robust",
+        "skew": 3.3964330001443974
+      },
+      "NumHAcceptors": {
+        "type": "robust",
+        "skew": 2.575695802493626
+      },
+      "NumHDonors": {
+        "type": "robust",
+        "skew": 4.242624228086857
+      },
+      "NumRotatableBonds": {
+        "type": "robust",
+        "skew": 1.8966662191424755
+      },
+      "NumRadicalElectrons": {
+        "type": "robust",
+        "skew": 31.936214634484305
+      },
+      "RingCount": {
+        "type": "robust",
+        "skew": 1.181936529903865
+      },
+      "NumAromaticRings": {
+        "type": "standard",
+        "skew": 0.14162240310920277
+      },
+      "NumAliphaticRings": {
+        "type": "robust",
+        "skew": 2.4695406478602995
+      },
+      "NumSaturatedRings": {
+        "type": "robust",
+        "skew": 3.05327843872764
+      },
+      "NumHeterocycles": {
+        "type": "robust",
+        "skew": 1.4161192430497336
+      },
+      "FractionCSP3": {
+        "type": "standard",
+        "skew": 0.6810398700441482
+      },
+      "NumSpiroAtoms": {
+        "type": "robust",
+        "skew": 3.839448379873401
+      },
+      "NumBridgeheadAtoms": {
+        "type": "robust",
+        "skew": 10.186063956659568
+      },
+      "FormalCharge": {
+        "type": "robust",
+        "skew": 8.023402762605969
+      },
+      "NumValenceElectrons": {
+        "type": "robust",
+        "skew": 2.3526864234794815
+      },
+      "NumHeteroatoms": {
+        "type": "robust",
+        "skew": 2.2316266650975596
+      },
+      "NHOHCount": {
+        "type": "robust",
+        "skew": 4.242624228086857
+      },
+      "NOCount": {
+        "type": "robust",
+        "skew": 2.575695802493626
+      },
+      "NumAmideBonds": {
+        "type": "robust",
+        "skew": 2.9825152138582767
+      },
+      "QED": {
+        "type": "standard",
+        "skew": -0.55547555063576
+      },
+      "CrippenLogP": {
+        "type": "standard",
+        "skew": -0.5713865806084898
+      },
+      "CrippenMR": {
+        "type": "robust",
+        "skew": 1.7545360236343992
+      },
+      "GasteigerCharge_mean": {
+        "type": "robust",
+        "skew": 7.772957507279302
+      },
+      "GasteigerCharge_min": {
+        "type": "standard",
+        "skew": 0.3639076953122611
+      },
+      "GasteigerCharge_max": {
+        "type": "standard",
+        "skew": 0.06023112028875774
+      },
+      "PEOE_VSA_1": {
+        "type": "robust",
+        "skew": 3.8038467228152335
+      },
+      "PEOE_VSA_2": {
+        "type": "robust",
+        "skew": 1.5855569457218177
+      },
+      "PEOE_VSA_3": {
+        "type": "standard",
+        "skew": 0.8919636297776853
+      },
+      "PEOE_VSA_4": {
+        "type": "robust",
+        "skew": 2.9159146481914204
+      },
+      "PEOE_VSA_5": {
+        "type": "robust",
+        "skew": 2.5534333652217076
+      },
+      "PEOE_VSA_6": {
+        "type": "robust",
+        "skew": 1.1078774306985193
+      },
+      "PEOE_VSA_7": {
+        "type": "standard",
+        "skew": 0.7413164126435001
+      },
+      "PEOE_VSA_8": {
+        "type": "standard",
+        "skew": 0.8326661142279778
+      },
+      "PEOE_VSA_9": {
+        "type": "robust",
+        "skew": 1.36424375481106
+      },
+      "PEOE_VSA_10": {
+        "type": "robust",
+        "skew": 2.749653817582867
+      },
+      "PEOE_VSA_11": {
+        "type": "robust",
+        "skew": 1.7998574413386024
+      },
+      "PEOE_VSA_12": {
+        "type": "robust",
+        "skew": 3.092304332420053
+      },
+      "PEOE_VSA_13": {
+        "type": "robust",
+        "skew": 2.7703536212120157
+      },
+      "PEOE_VSA_14": {
+        "type": "robust",
+        "skew": 13.02238872635752
+      },
+      "SMR_VSA_1": {
+        "type": "robust",
+        "skew": 2.6309996133496254
+      },
+      "SMR_VSA_2": {
+        "type": "robust",
+        "skew": 4.548514754649645
+      },
+      "SMR_VSA_3": {
+        "type": "standard",
+        "skew": 0.8487667939986883
+      },
+      "SMR_VSA_4": {
+        "type": "robust",
+        "skew": 2.896974828381586
+      },
+      "SMR_VSA_5": {
+        "type": "robust",
+        "skew": 2.563537145784586
+      },
+      "SMR_VSA_6": {
+        "type": "robust",
+        "skew": 1.100946406234701
+      },
+      "SMR_VSA_7": {
+        "type": "standard",
+        "skew": 0.3664158266070334
+      },
+      "SMR_VSA_9": {
+        "type": "robust",
+        "skew": 1.5085069245674878
+      },
+      "SMR_VSA_10": {
+        "type": "robust",
+        "skew": 1.5141642769674597
+      },
+      "SlogP_VSA_1": {
+        "type": "robust",
+        "skew": 1.835346893223265
+      },
+      "SlogP_VSA_2": {
+        "type": "robust",
+        "skew": 2.5394299384924137
+      },
+      "SlogP_VSA_3": {
+        "type": "robust",
+        "skew": 1.6359470722361564
+      },
+      "SlogP_VSA_4": {
+        "type": "robust",
+        "skew": 1.7220290214785081
+      },
+      "SlogP_VSA_5": {
+        "type": "robust",
+        "skew": 1.566010090734882
+      },
+      "SlogP_VSA_6": {
+        "type": "standard",
+        "skew": 0.3789610343752955
+      },
+      "SlogP_VSA_7": {
+        "type": "robust",
+        "skew": 3.412698957921407
+      },
+      "SlogP_VSA_8": {
+        "type": "robust",
+        "skew": 1.2182894753954803
+      },
+      "SlogP_VSA_10": {
+        "type": "robust",
+        "skew": 1.6496556307940151
+      },
+      "SlogP_VSA_11": {
+        "type": "robust",
+        "skew": 2.4501456462719604
+      },
+      "SlogP_VSA_12": {
+        "type": "robust",
+        "skew": 2.5419777933820873
+      }
+    }
+  },
+  "missing_thresh": 0.1,
+  "skew_thresh": 1.0,
+  "indicator_thresh": 0.01,
+  "descriptor_dim": 79
+}
