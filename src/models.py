@@ -131,4 +131,14 @@ class ADMEModel(nn.Module):
     def unfreeze_backbone(self):
         for param in self.parameters():
             param.requires_grad = True
+            
+def build_adme_model(descriptor_dim, **kwargs):
+    """
+    Factory helper to build the ADMEModel with sane defaults.
+    descriptor_dim: int - dimension of descriptor vector used by  model.
+    kwargs forwarded to ADMEModel.
+    """
+    model = ADMEModel(descriptor_dim, **kwargs)
+    return model
+
 
