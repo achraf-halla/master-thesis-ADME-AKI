@@ -246,3 +246,68 @@ def compute_and_transform(smiles_series, fit_meta=None, use_vsa=True, use_3d=Tru
     else:
         meta = fit_meta
     return transform_descriptors(raw, meta)
+
+
+def get_atom_features(a):
+    return [
+        a.GetAtomicNum(), a.GetDegree(),
+        int(a.GetHybridization()), int(a.GetIsAromatic()),
+        a.GetFormalCharge(), int(a.IsInRing()),
+    ]
+
+def get_bond_features(b):
+    return [
+        b.GetBondTypeAsDouble(), int(b.GetIsConjugated()),
+        int(b.IsInRing()), int(b.GetStereo() != Chem.rdchem.BondStereo.STEREONONE),
+    ]
+from sklearn.preprocessing import StandardScaler
+import joblib, os, numpy as np, pandas as pd
+
+meta = load_featurization_meta()  
+os.makedirs("results/pretraining", exist_ok=True)
+
+def mol_graph_feats(series):
+    A, B = [], []
+    for smi in series:
+        mol = Chem.MolFromSmiles(smi) if pd.notnull(smi) else None
+        if mol:
+            A.append([get_atom_features(a) for a in mol.GetAtoms()])
+            B.append([get_bond_features(b) for b in mol.GetBonds()])
+        else:
+            A.append([]); B.append([])
+    return A, B
+
+processed = {}
+targ_scalers = {}
+tasks = sorted(train_df['task'].unique())
+
+for task in tasks:
+    tr = train_df[train_df['task'] == task].reset_index(drop=True)
+    vl = val_df[val_df['task'] == task].reset_index(drop=True)
+    te = test_df[test_df['task'] == task].reset_index(drop=True)
+
+    tr_X = compute_and_transform(tr['Drug'], fit_meta=meta, use_vsa=True, use_3d=True)
+    vl_X = compute_and_transform(vl['Drug'], fit_meta=meta, use_vsa=True, use_3d=True)
+    te_X = compute_and_transform(te['Drug'], fit_meta=meta, use_vsa=True, use_3d=True)
+
+    if tr.loc[0, 'task_type'] == 'regression':
+        ts = StandardScaler().fit(tr[['Y']])
+        targ_scalers[task] = ts
+        tr_Y = ts.transform(tr[['Y']]).ravel()
+        vl_Y = ts.transform(vl[['Y']]).ravel()
+        te_Y = ts.transform(te[['Y']]).ravel()
+    else:
+        tr_Y, vl_Y, te_Y = tr['Y'].values, vl['Y'].values, te['Y'].values
+
+    tr_A, tr_B = mol_graph_feats(tr['Drug'])
+    vl_A, vl_B = mol_graph_feats(vl['Drug'])
+    te_A, te_B = mol_graph_feats(te['Drug'])
+
+    processed[task] = {
+        'train': {'desc': tr_X, 'Y': tr_Y, 'atoms': tr_A, 'bonds': tr_B, 'smiles': tr['Drug'].values},
+        'val':   {'desc': vl_X, 'Y': vl_Y, 'atoms': vl_A, 'bonds': vl_B, 'smiles': vl['Drug'].values},
+        'test':  {'desc': te_X, 'Y': te_Y, 'atoms': te_A, 'bonds': te_B, 'smiles': te['Drug'].values},
+    }
+
+
+
