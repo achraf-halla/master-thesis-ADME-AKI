@@ -1,0 +1,1969 @@
+{
+  "all_input_cols": [
+    "MolWt",
+    "HeavyAtomCount",
+    "ExactMolWt",
+    "MolLogP",
+    "MolMR",
+    "TPSA",
+    "LabuteASA",
+    "BalabanJ",
+    "BertzCT",
+    "Chi0",
+    "Chi1",
+    "Chi2n",
+    "Chi3n",
+    "Chi4n",
+    "Chi2v",
+    "Chi3v",
+    "Chi4v",
+    "HallKierAlpha",
+    "Kappa1",
+    "Kappa2",
+    "Kappa3",
+    "NumHAcceptors",
+    "NumHDonors",
+    "NumRotatableBonds",
+    "NumRadicalElectrons",
+    "RingCount",
+    "NumAromaticRings",
+    "NumAliphaticRings",
+    "NumSaturatedRings",
+    "NumHeterocycles",
+    "FractionCSP3",
+    "NumSpiroAtoms",
+    "NumBridgeheadAtoms",
+    "FormalCharge",
+    "NumValenceElectrons",
+    "NumHeteroatoms",
+    "NHOHCount",
+    "NOCount",
+    "NumAmideBonds",
+    "QED",
+    "CrippenLogP",
+    "CrippenMR",
+    "GasteigerCharge_mean",
+    "GasteigerCharge_min",
+    "GasteigerCharge_max",
+    "PEOE_VSA_1",
+    "PEOE_VSA_2",
+    "PEOE_VSA_3",
+    "PEOE_VSA_4",
+    "PEOE_VSA_5",
+    "PEOE_VSA_6",
+    "PEOE_VSA_7",
+    "PEOE_VSA_8",
+    "PEOE_VSA_9",
+    "PEOE_VSA_10",
+    "PEOE_VSA_11",
+    "PEOE_VSA_12",
+    "PEOE_VSA_13",
+    "PEOE_VSA_14",
+    "SMR_VSA_1",
+    "SMR_VSA_2",
+    "SMR_VSA_3",
+    "SMR_VSA_4",
+    "SMR_VSA_5",
+    "SMR_VSA_6",
+    "SMR_VSA_7",
+    "SMR_VSA_9",
+    "SMR_VSA_10",
+    "SlogP_VSA_1",
+    "SlogP_VSA_2",
+    "SlogP_VSA_3",
+    "SlogP_VSA_4",
+    "SlogP_VSA_5",
+    "SlogP_VSA_6",
+    "SlogP_VSA_7",
+    "SlogP_VSA_8",
+    "SlogP_VSA_10",
+    "SlogP_VSA_11",
+    "SlogP_VSA_12",
+    "MACCS_3",
+    "MACCS_8",
+    "MACCS_11",
+    "MACCS_12",
+    "MACCS_13",
+    "MACCS_14",
+    "MACCS_15",
+    "MACCS_16",
+    "MACCS_17",
+    "MACCS_18",
+    "MACCS_19",
+    "MACCS_20",
+    "MACCS_21",
+    "MACCS_22",
+    "MACCS_23",
+    "MACCS_24",
+    "MACCS_25",
+    "MACCS_26",
+    "MACCS_27",
+    "MACCS_28",
+    "MACCS_29",
+    "MACCS_30",
+    "MACCS_31",
+    "MACCS_32",
+    "MACCS_33",
+    "MACCS_34",
+    "MACCS_36",
+    "MACCS_37",
+    "MACCS_38",
+    "MACCS_39",
+    "MACCS_40",
+    "MACCS_41",
+    "MACCS_42",
+    "MACCS_43",
+    "MACCS_44",
+    "MACCS_45",
+    "MACCS_46",
+    "MACCS_47",
+    "MACCS_48",
+    "MACCS_49",
+    "MACCS_50",
+    "MACCS_51",
+    "MACCS_52",
+    "MACCS_53",
+    "MACCS_54",
+    "MACCS_55",
+    "MACCS_56",
+    "MACCS_57",
+    "MACCS_58",
+    "MACCS_59",
+    "MACCS_60",
+    "MACCS_61",
+    "MACCS_62",
+    "MACCS_63",
+    "MACCS_64",
+    "MACCS_65",
+    "MACCS_66",
+    "MACCS_67",
+    "MACCS_68",
+    "MACCS_69",
+    "MACCS_70",
+    "MACCS_71",
+    "MACCS_72",
+    "MACCS_73",
+    "MACCS_74",
+    "MACCS_75",
+    "MACCS_76",
+    "MACCS_77",
+    "MACCS_78",
+    "MACCS_79",
+    "MACCS_80",
+    "MACCS_81",
+    "MACCS_82",
+    "MACCS_83",
+    "MACCS_84",
+    "MACCS_85",
+    "MACCS_86",
+    "MACCS_87",
+    "MACCS_88",
+    "MACCS_89",
+    "MACCS_90",
+    "MACCS_91",
+    "MACCS_92",
+    "MACCS_93",
+    "MACCS_94",
+    "MACCS_95",
+    "MACCS_96",
+    "MACCS_97",
+    "MACCS_98",
+    "MACCS_99",
+    "MACCS_100",
+    "MACCS_101",
+    "MACCS_102",
+    "MACCS_103",
+    "MACCS_104",
+    "MACCS_105",
+    "MACCS_106",
+    "MACCS_107",
+    "MACCS_108",
+    "MACCS_109",
+    "MACCS_110",
+    "MACCS_111",
+    "MACCS_112",
+    "MACCS_113",
+    "MACCS_114",
+    "MACCS_115",
+    "MACCS_116",
+    "MACCS_117",
+    "MACCS_118",
+    "MACCS_119",
+    "MACCS_120",
+    "MACCS_121",
+    "MACCS_122",
+    "MACCS_123",
+    "MACCS_124",
+    "MACCS_125",
+    "MACCS_126",
+    "MACCS_127",
+    "MACCS_128",
+    "MACCS_129",
+    "MACCS_130",
+    "MACCS_131",
+    "MACCS_132",
+    "MACCS_133",
+    "MACCS_134",
+    "MACCS_135",
+    "MACCS_136",
+    "MACCS_137",
+    "MACCS_138",
+    "MACCS_139",
+    "MACCS_140",
+    "MACCS_141",
+    "MACCS_142",
+    "MACCS_143",
+    "MACCS_144",
+    "MACCS_145",
+    "MACCS_146",
+    "MACCS_147",
+    "MACCS_148",
+    "MACCS_149",
+    "MACCS_150",
+    "MACCS_151",
+    "MACCS_152",
+    "MACCS_153",
+    "MACCS_154",
+    "MACCS_155",
+    "MACCS_156",
+    "MACCS_157",
+    "MACCS_158",
+    "MACCS_159",
+    "MACCS_160",
+    "MACCS_161",
+    "MACCS_162",
+    "MACCS_163",
+    "MACCS_164",
+    "morgan_on_bits",
+    "morgan_density",
+    "N_count",
+    "O_count",
+    "S_count",
+    "F_count",
+    "Cl_count",
+    "Br_count",
+    "P_count",
+    "I_count",
+    "frac_aromatic_atoms",
+    "n_stereo_centers",
+    "scaffold_size",
+    "max_ring_size",
+    "mean_ring_size",
+    "n_rings",
+    "tpsa_per_heavy"
+  ],
+  "kept_cols": [
+    "MolWt",
+    "HeavyAtomCount",
+    "MolLogP",
+    "TPSA",
+    "BalabanJ",
+    "BertzCT",
+    "Chi2n",
+    "Chi4n",
+    "Chi2v",
+    "Chi4v",
+    "HallKierAlpha",
+    "Kappa1",
+    "Kappa2",
+    "Kappa3",
+    "NumHAcceptors",
+    "NumHDonors",
+    "NumRotatableBonds",
+    "RingCount",
+    "NumAromaticRings",
+    "NumAliphaticRings",
+    "NumSaturatedRings",
+    "NumHeterocycles",
+    "FractionCSP3",
+    "NumSpiroAtoms",
+    "NumBridgeheadAtoms",
+    "NumHeteroatoms",
+    "NumAmideBonds",
+    "QED",
+    "CrippenMR",
+    "GasteigerCharge_mean",
+    "GasteigerCharge_min",
+    "GasteigerCharge_max",
+    "PEOE_VSA_1",
+    "PEOE_VSA_2",
+    "PEOE_VSA_3",
+    "PEOE_VSA_4",
+    "PEOE_VSA_5",
+    "PEOE_VSA_6",
+    "PEOE_VSA_7",
+    "PEOE_VSA_8",
+    "PEOE_VSA_9",
+    "PEOE_VSA_10",
+    "PEOE_VSA_11",
+    "PEOE_VSA_12",
+    "PEOE_VSA_13",
+    "PEOE_VSA_14",
+    "SMR_VSA_1",
+    "SMR_VSA_2",
+    "SMR_VSA_3",
+    "SMR_VSA_4",
+    "SMR_VSA_5",
+    "SMR_VSA_6",
+    "SMR_VSA_7",
+    "SMR_VSA_9",
+    "SMR_VSA_10",
+    "SlogP_VSA_1",
+    "SlogP_VSA_2",
+    "SlogP_VSA_3",
+    "SlogP_VSA_4",
+    "SlogP_VSA_5",
+    "SlogP_VSA_6",
+    "SlogP_VSA_7",
+    "SlogP_VSA_8",
+    "SlogP_VSA_10",
+    "SlogP_VSA_11",
+    "SlogP_VSA_12",
+    "MACCS_11",
+    "MACCS_19",
+    "MACCS_22",
+    "MACCS_23",
+    "MACCS_24",
+    "MACCS_25",
+    "MACCS_26",
+    "MACCS_28",
+    "MACCS_32",
+    "MACCS_33",
+    "MACCS_36",
+    "MACCS_37",
+    "MACCS_38",
+    "MACCS_41",
+    "MACCS_42",
+    "MACCS_43",
+    "MACCS_45",
+    "MACCS_47",
+    "MACCS_49",
+    "MACCS_50",
+    "MACCS_52",
+    "MACCS_53",
+    "MACCS_54",
+    "MACCS_57",
+    "MACCS_58",
+    "MACCS_59",
+    "MACCS_61",
+    "MACCS_62",
+    "MACCS_63",
+    "MACCS_64",
+    "MACCS_65",
+    "MACCS_66",
+    "MACCS_67",
+    "MACCS_69",
+    "MACCS_70",
+    "MACCS_71",
+    "MACCS_72",
+    "MACCS_73",
+    "MACCS_74",
+    "MACCS_75",
+    "MACCS_76",
+    "MACCS_77",
+    "MACCS_78",
+    "MACCS_79",
+    "MACCS_80",
+    "MACCS_81",
+    "MACCS_82",
+    "MACCS_83",
+    "MACCS_84",
+    "MACCS_85",
+    "MACCS_86",
+    "MACCS_87",
+    "MACCS_88",
+    "MACCS_89",
+    "MACCS_90",
+    "MACCS_91",
+    "MACCS_92",
+    "MACCS_93",
+    "MACCS_94",
+    "MACCS_95",
+    "MACCS_96",
+    "MACCS_97",
+    "MACCS_98",
+    "MACCS_99",
+    "MACCS_100",
+    "MACCS_101",
+    "MACCS_102",
+    "MACCS_103",
+    "MACCS_104",
+    "MACCS_105",
+    "MACCS_106",
+    "MACCS_108",
+    "MACCS_109",
+    "MACCS_110",
+    "MACCS_111",
+    "MACCS_112",
+    "MACCS_113",
+    "MACCS_114",
+    "MACCS_115",
+    "MACCS_116",
+    "MACCS_117",
+    "MACCS_118",
+    "MACCS_119",
+    "MACCS_120",
+    "MACCS_121",
+    "MACCS_122",
+    "MACCS_123",
+    "MACCS_124",
+    "MACCS_125",
+    "MACCS_126",
+    "MACCS_128",
+    "MACCS_129",
+    "MACCS_130",
+    "MACCS_131",
+    "MACCS_132",
+    "MACCS_133",
+    "MACCS_134",
+    "MACCS_135",
+    "MACCS_136",
+    "MACCS_137",
+    "MACCS_138",
+    "MACCS_139",
+    "MACCS_140",
+    "MACCS_141",
+    "MACCS_142",
+    "MACCS_143",
+    "MACCS_144",
+    "MACCS_145",
+    "MACCS_146",
+    "MACCS_147",
+    "MACCS_148",
+    "MACCS_149",
+    "MACCS_150",
+    "MACCS_151",
+    "MACCS_152",
+    "MACCS_153",
+    "MACCS_154",
+    "MACCS_155",
+    "MACCS_156",
+    "MACCS_157",
+    "MACCS_158",
+    "MACCS_159",
+    "MACCS_160",
+    "MACCS_161",
+    "MACCS_162",
+    "MACCS_163",
+    "MACCS_164",
+    "morgan_density",
+    "N_count",
+    "O_count",
+    "S_count",
+    "F_count",
+    "Cl_count",
+    "Br_count",
+    "frac_aromatic_atoms",
+    "n_stereo_centers",
+    "scaffold_size",
+    "max_ring_size",
+    "mean_ring_size",
+    "tpsa_per_heavy"
+  ],
+  "original_kept_cols": [
+    "MolWt",
+    "HeavyAtomCount",
+    "ExactMolWt",
+    "MolLogP",
+    "MolMR",
+    "TPSA",
+    "LabuteASA",
+    "BalabanJ",
+    "BertzCT",
+    "Chi0",
+    "Chi1",
+    "Chi2n",
+    "Chi3n",
+    "Chi4n",
+    "Chi2v",
+    "Chi3v",
+    "Chi4v",
+    "HallKierAlpha",
+    "Kappa1",
+    "Kappa2",
+    "Kappa3",
+    "NumHAcceptors",
+    "NumHDonors",
+    "NumRotatableBonds",
+    "RingCount",
+    "NumAromaticRings",
+    "NumAliphaticRings",
+    "NumSaturatedRings",
+    "NumHeterocycles",
+    "FractionCSP3",
+    "NumSpiroAtoms",
+    "NumBridgeheadAtoms",
+    "NumValenceElectrons",
+    "NumHeteroatoms",
+    "NHOHCount",
+    "NOCount",
+    "NumAmideBonds",
+    "QED",
+    "CrippenLogP",
+    "CrippenMR",
+    "GasteigerCharge_mean",
+    "GasteigerCharge_min",
+    "GasteigerCharge_max",
+    "PEOE_VSA_1",
+    "PEOE_VSA_2",
+    "PEOE_VSA_3",
+    "PEOE_VSA_4",
+    "PEOE_VSA_5",
+    "PEOE_VSA_6",
+    "PEOE_VSA_7",
+    "PEOE_VSA_8",
+    "PEOE_VSA_9",
+    "PEOE_VSA_10",
+    "PEOE_VSA_11",
+    "PEOE_VSA_12",
+    "PEOE_VSA_13",
+    "PEOE_VSA_14",
+    "SMR_VSA_1",
+    "SMR_VSA_2",
+    "SMR_VSA_3",
+    "SMR_VSA_4",
+    "SMR_VSA_5",
+    "SMR_VSA_6",
+    "SMR_VSA_7",
+    "SMR_VSA_9",
+    "SMR_VSA_10",
+    "SlogP_VSA_1",
+    "SlogP_VSA_2",
+    "SlogP_VSA_3",
+    "SlogP_VSA_4",
+    "SlogP_VSA_5",
+    "SlogP_VSA_6",
+    "SlogP_VSA_7",
+    "SlogP_VSA_8",
+    "SlogP_VSA_10",
+    "SlogP_VSA_11",
+    "SlogP_VSA_12",
+    "MACCS_11",
+    "MACCS_19",
+    "MACCS_22",
+    "MACCS_23",
+    "MACCS_24",
+    "MACCS_25",
+    "MACCS_26",
+    "MACCS_28",
+    "MACCS_32",
+    "MACCS_33",
+    "MACCS_36",
+    "MACCS_37",
+    "MACCS_38",
+    "MACCS_41",
+    "MACCS_42",
+    "MACCS_43",
+    "MACCS_45",
+    "MACCS_46",
+    "MACCS_47",
+    "MACCS_49",
+    "MACCS_50",
+    "MACCS_51",
+    "MACCS_52",
+    "MACCS_53",
+    "MACCS_54",
+    "MACCS_55",
+    "MACCS_56",
+    "MACCS_57",
+    "MACCS_58",
+    "MACCS_59",
+    "MACCS_60",
+    "MACCS_61",
+    "MACCS_62",
+    "MACCS_63",
+    "MACCS_64",
+    "MACCS_65",
+    "MACCS_66",
+    "MACCS_67",
+    "MACCS_69",
+    "MACCS_70",
+    "MACCS_71",
+    "MACCS_72",
+    "MACCS_73",
+    "MACCS_74",
+    "MACCS_75",
+    "MACCS_76",
+    "MACCS_77",
+    "MACCS_78",
+    "MACCS_79",
+    "MACCS_80",
+    "MACCS_81",
+    "MACCS_82",
+    "MACCS_83",
+    "MACCS_84",
+    "MACCS_85",
+    "MACCS_86",
+    "MACCS_87",
+    "MACCS_88",
+    "MACCS_89",
+    "MACCS_90",
+    "MACCS_91",
+    "MACCS_92",
+    "MACCS_93",
+    "MACCS_94",
+    "MACCS_95",
+    "MACCS_96",
+    "MACCS_97",
+    "MACCS_98",
+    "MACCS_99",
+    "MACCS_100",
+    "MACCS_101",
+    "MACCS_102",
+    "MACCS_103",
+    "MACCS_104",
+    "MACCS_105",
+    "MACCS_106",
+    "MACCS_107",
+    "MACCS_108",
+    "MACCS_109",
+    "MACCS_110",
+    "MACCS_111",
+    "MACCS_112",
+    "MACCS_113",
+    "MACCS_114",
+    "MACCS_115",
+    "MACCS_116",
+    "MACCS_117",
+    "MACCS_118",
+    "MACCS_119",
+    "MACCS_120",
+    "MACCS_121",
+    "MACCS_122",
+    "MACCS_123",
+    "MACCS_124",
+    "MACCS_125",
+    "MACCS_126",
+    "MACCS_127",
+    "MACCS_128",
+    "MACCS_129",
+    "MACCS_130",
+    "MACCS_131",
+    "MACCS_132",
+    "MACCS_133",
+    "MACCS_134",
+    "MACCS_135",
+    "MACCS_136",
+    "MACCS_137",
+    "MACCS_138",
+    "MACCS_139",
+    "MACCS_140",
+    "MACCS_141",
+    "MACCS_142",
+    "MACCS_143",
+    "MACCS_144",
+    "MACCS_145",
+    "MACCS_146",
+    "MACCS_147",
+    "MACCS_148",
+    "MACCS_149",
+    "MACCS_150",
+    "MACCS_151",
+    "MACCS_152",
+    "MACCS_153",
+    "MACCS_154",
+    "MACCS_155",
+    "MACCS_156",
+    "MACCS_157",
+    "MACCS_158",
+    "MACCS_159",
+    "MACCS_160",
+    "MACCS_161",
+    "MACCS_162",
+    "MACCS_163",
+    "MACCS_164",
+    "morgan_on_bits",
+    "morgan_density",
+    "N_count",
+    "O_count",
+    "S_count",
+    "F_count",
+    "Cl_count",
+    "Br_count",
+    "frac_aromatic_atoms",
+    "n_stereo_centers",
+    "scaffold_size",
+    "max_ring_size",
+    "mean_ring_size",
+    "n_rings",
+    "tpsa_per_heavy"
+  ],
+  "dropped_zero_cols": [
+    "NumRadicalElectrons",
+    "FormalCharge",
+    "MACCS_3",
+    "MACCS_8",
+    "MACCS_12",
+    "MACCS_13",
+    "MACCS_14",
+    "MACCS_15",
+    "MACCS_16",
+    "MACCS_17",
+    "MACCS_18",
+    "MACCS_20",
+    "MACCS_21",
+    "MACCS_27",
+    "MACCS_29",
+    "MACCS_30",
+    "MACCS_31",
+    "MACCS_34",
+    "MACCS_39",
+    "MACCS_40",
+    "MACCS_44",
+    "MACCS_48",
+    "MACCS_68",
+    "P_count",
+    "I_count"
+  ],
+  "dropped_variance_cols": [],
+  "dropped_corr_cols": [
+    "Chi0",
+    "Chi1",
+    "Chi3n",
+    "Chi3v",
+    "CrippenLogP",
+    "ExactMolWt",
+    "LabuteASA",
+    "MACCS_107",
+    "MACCS_127",
+    "MACCS_46",
+    "MACCS_51",
+    "MACCS_55",
+    "MACCS_56",
+    "MACCS_60",
+    "MolMR",
+    "NHOHCount",
+    "NOCount",
+    "NumValenceElectrons",
+    "morgan_on_bits",
+    "n_rings"
+  ],
+  "winsor_caps": {
+    "MolWt": {
+      "low": 145.27451999999997,
+      "high": 835.1589799999999
+    },
+    "HeavyAtomCount": {
+      "low": 10.0,
+      "high": 59.0
+    },
+    "ExactMolWt": {
+      "low": 145.16624363636,
+      "high": 834.8573999629998
+    },
+    "MolMR": {
+      "low": 37.44225800000001,
+      "high": 218.807119999999
+    },
+    "TPSA": {
+      "low": 6.48,
+      "high": 252.25449999999933
+    },
+    "LabuteASA": {
+      "low": 61.30643264010986,
+      "high": 345.13959571880326
+    },
+    "Chi0": {
+      "low": 7.560477932315068,
+      "high": 43.4741766743494
+    },
+    "Chi1": {
+      "low": 4.863479625161853,
+      "high": 27.882046840972244
+    },
+    "Chi2n": {
+      "low": 2.0693620683361393,
+      "high": 17.37237264751097
+    },
+    "Chi2v": {
+      "low": 2.2651298526473878,
+      "high": 17.95312475839834
+    },
+    "Kappa1": {
+      "low": 6.589174830129849,
+      "high": 45.09482073347727
+    },
+    "Kappa2": {
+      "low": 2.2979937239293733,
+      "high": 19.38477341114335
+    },
+    "Kappa3": {
+      "low": 0.9348030843973566,
+      "high": 12.25216335221974
+    },
+    "NumHAcceptors": {
+      "low": 1.0,
+      "high": 16.889999999999418
+    },
+    "NumHDonors": {
+      "low": 0.0,
+      "high": 9.0
+    },
+    "NumRotatableBonds": {
+      "low": 0.0,
+      "high": 15.0
+    },
+    "NumAliphaticRings": {
+      "low": 0.0,
+      "high": 6.0
+    },
+    "NumSaturatedRings": {
+      "low": 0.0,
+      "high": 5.0
+    },
+    "NumSpiroAtoms": {
+      "low": 0.0,
+      "high": 1.0
+    },
+    "NumBridgeheadAtoms": {
+      "low": 0.0,
+      "high": 4.0
+    },
+    "NumValenceElectrons": {
+      "low": 54.0,
+      "high": 325.77999999999884
+    },
+    "NumHeteroatoms": {
+      "low": 1.0,
+      "high": 18.0
+    },
+    "NHOHCount": {
+      "low": 0.0,
+      "high": 9.0
+    },
+    "NOCount": {
+      "low": 1.0,
+      "high": 16.889999999999418
+    },
+    "NumAmideBonds": {
+      "low": 0.0,
+      "high": 4.0
+    },
+    "CrippenMR": {
+      "low": 37.44225800000001,
+      "high": 218.807119999999
+    },
+    "GasteigerCharge_mean": {
+      "low": -1.3322676295501878e-17,
+      "high": 0.02631578947368421
+    },
+    "PEOE_VSA_1": {
+      "low": 0.0,
+      "high": 60.72747276954328
+    },
+    "PEOE_VSA_4": {
+      "low": 0.0,
+      "high": 26.34249028604892
+    },
+    "PEOE_VSA_5": {
+      "low": 0.0,
+      "high": 23.098670827325854
+    },
+    "PEOE_VSA_10": {
+      "low": 0.0,
+      "high": 47.83739572693709
+    },
+    "PEOE_VSA_12": {
+      "low": 0.0,
+      "high": 23.132979785459757
+    },
+    "PEOE_VSA_13": {
+      "low": 0.0,
+      "high": 17.509237951270627
+    },
+    "PEOE_VSA_14": {
+      "low": 0.0,
+      "high": 23.877221151807397
+    },
+    "SMR_VSA_1": {
+      "low": 0.0,
+      "high": 64.16686948668523
+    },
+    "SMR_VSA_2": {
+      "low": 0.0,
+      "high": 5.409283605791522
+    },
+    "SMR_VSA_4": {
+      "low": 0.0,
+      "high": 34.58624343197232
+    },
+    "SMR_VSA_5": {
+      "low": 0.0,
+      "high": 127.08005214776298
+    },
+    "SlogP_VSA_1": {
+      "low": 0.0,
+      "high": 30.160954673419138
+    },
+    "SlogP_VSA_2": {
+      "low": 4.9839785209472085,
+      "high": 139.3311765947463
+    },
+    "SlogP_VSA_7": {
+      "low": 0.0,
+      "high": 10.175743130634118
+    },
+    "SlogP_VSA_11": {
+      "low": 0.0,
+      "high": 23.128523836287087
+    },
+    "SlogP_VSA_12": {
+      "low": 0.0,
+      "high": 46.19734165465171
+    },
+    "MACCS_11": {
+      "low": 0.0,
+      "high": 1.0
+    },
+    "MACCS_19": {
+      "low": 0.0,
+      "high": 1.0
+    },
+    "MACCS_22": {
+      "low": 0.0,
+      "high": 1.0
+    },
+    "MACCS_23": {
+      "low": 0.0,
+      "high": 1.0
+    },
+    "MACCS_24": {
+      "low": 0.0,
+      "high": 1.0
+    },
+    "MACCS_25": {
+      "low": 0.0,
+      "high": 1.0
+    },
+    "MACCS_26": {
+      "low": 0.0,
+      "high": 1.0
+    },
+    "MACCS_28": {
+      "low": 0.0,
+      "high": 1.0
+    },
+    "MACCS_32": {
+      "low": 0.0,
+      "high": 1.0
+    },
+    "MACCS_33": {
+      "low": 0.0,
+      "high": 1.0
+    },
+    "MACCS_36": {
+      "low": 0.0,
+      "high": 1.0
+    },
+    "MACCS_37": {
+      "low": 0.0,
+      "high": 1.0
+    },
+    "MACCS_41": {
+      "low": 0.0,
+      "high": 1.0
+    },
+    "MACCS_42": {
+      "low": 0.0,
+      "high": 1.0
+    },
+    "MACCS_43": {
+      "low": 0.0,
+      "high": 1.0
+    },
+    "MACCS_45": {
+      "low": 0.0,
+      "high": 1.0
+    },
+    "MACCS_46": {
+      "low": 0.0,
+      "high": 1.0
+    },
+    "MACCS_49": {
+      "low": 0.0,
+      "high": 1.0
+    },
+    "MACCS_50": {
+      "low": 0.0,
+      "high": 1.0
+    },
+    "MACCS_51": {
+      "low": 0.0,
+      "high": 1.0
+    },
+    "MACCS_53": {
+      "low": 0.0,
+      "high": 1.0
+    },
+    "MACCS_54": {
+      "low": 0.0,
+      "high": 1.0
+    },
+    "MACCS_55": {
+      "low": 0.0,
+      "high": 1.0
+    },
+    "MACCS_56": {
+      "low": 0.0,
+      "high": 1.0
+    },
+    "MACCS_58": {
+      "low": 0.0,
+      "high": 1.0
+    },
+    "MACCS_60": {
+      "low": 0.0,
+      "high": 1.0
+    },
+    "MACCS_61": {
+      "low": 0.0,
+      "high": 1.0
+    },
+    "MACCS_63": {
+      "low": 0.0,
+      "high": 1.0
+    },
+    "MACCS_67": {
+      "low": 0.0,
+      "high": 1.0
+    },
+    "MACCS_69": {
+      "low": 0.0,
+      "high": 1.0
+    },
+    "MACCS_70": {
+      "low": 0.0,
+      "high": 1.0
+    },
+    "MACCS_71": {
+      "low": 0.0,
+      "high": 1.0
+    },
+    "MACCS_73": {
+      "low": 0.0,
+      "high": 1.0
+    },
+    "MACCS_76": {
+      "low": 0.0,
+      "high": 1.0
+    },
+    "MACCS_78": {
+      "low": 0.0,
+      "high": 1.0
+    },
+    "MACCS_84": {
+      "low": 0.0,
+      "high": 1.0
+    },
+    "MACCS_99": {
+      "low": 0.0,
+      "high": 1.0
+    },
+    "MACCS_119": {
+      "low": 0.0,
+      "high": 1.0
+    },
+    "MACCS_137": {
+      "low": 0.0,
+      "high": 1.0
+    },
+    "MACCS_156": {
+      "low": 0.0,
+      "high": 1.0
+    },
+    "MACCS_158": {
+      "low": 0.0,
+      "high": 1.0
+    },
+    "MACCS_161": {
+      "low": 0.0,
+      "high": 1.0
+    },
+    "MACCS_162": {
+      "low": 0.0,
+      "high": 1.0
+    },
+    "MACCS_163": {
+      "low": 0.0,
+      "high": 1.0
+    },
+    "MACCS_164": {
+      "low": 0.0,
+      "high": 1.0
+    },
+    "O_count": {
+      "low": 0.0,
+      "high": 13.0
+    },
+    "F_count": {
+      "low": 0.0,
+      "high": 6.0
+    },
+    "Cl_count": {
+      "low": 0.0,
+      "high": 3.0
+    },
+    "Br_count": {
+      "low": 0.0,
+      "high": 1.0
+    },
+    "n_stereo_centers": {
+      "low": 0.0,
+      "high": 12.0
+    },
+    "max_ring_size": {
+      "low": 5.0,
+      "high": 18.0
+    },
+    "mean_ring_size": {
+      "low": 4.666666666666667,
+      "high": 10.563571428571386
+    }
+  },
+  "indicator_cols": [],
+  "imputer": {
+    "type": "median",
+    "path": "models/scalers/desc_imputer_median.pkl"
+  },
+  "scalers": {
+    "path": "models/scalers/desc_scalers.pkl",
+    "per_column": {
+      "MolWt": {
+        "type": "standard",
+        "skew": 0.9165158900701387
+      },
+      "HeavyAtomCount": {
+        "type": "standard",
+        "skew": 0.8819201539872951
+      },
+      "MolLogP": {
+        "type": "standard",
+        "skew": -0.5563757517520919
+      },
+      "TPSA": {
+        "type": "standard",
+        "skew": 1.4230960736385203
+      },
+      "BalabanJ": {
+        "type": "standard",
+        "skew": 0.8566473194184152
+      },
+      "BertzCT": {
+        "type": "standard",
+        "skew": 1.7334917407693378
+      },
+      "Chi2n": {
+        "type": "standard",
+        "skew": 1.1559795168629192
+      },
+      "Chi4n": {
+        "type": "standard",
+        "skew": 1.8779305223042346
+      },
+      "Chi2v": {
+        "type": "standard",
+        "skew": 1.0163033074937953
+      },
+      "Chi4v": {
+        "type": "standard",
+        "skew": 1.728814581959892
+      },
+      "HallKierAlpha": {
+        "type": "standard",
+        "skew": -0.761596403348332
+      },
+      "Kappa1": {
+        "type": "standard",
+        "skew": 1.1923587685839032
+      },
+      "Kappa2": {
+        "type": "standard",
+        "skew": 1.0947038606869326
+      },
+      "Kappa3": {
+        "type": "standard",
+        "skew": 1.424908206665936
+      },
+      "NumHAcceptors": {
+        "type": "standard",
+        "skew": 1.064562188095328
+      },
+      "NumHDonors": {
+        "type": "standard",
+        "skew": 1.8478817688323483
+      },
+      "NumRotatableBonds": {
+        "type": "standard",
+        "skew": 0.9361964749458027
+      },
+      "RingCount": {
+        "type": "standard",
+        "skew": 1.428322690497612
+      },
+      "NumAromaticRings": {
+        "type": "standard",
+        "skew": 0.10748324986761887
+      },
+      "NumAliphaticRings": {
+        "type": "standard",
+        "skew": 1.583225516329319
+      },
+      "NumSaturatedRings": {
+        "type": "standard",
+        "skew": 1.7155594810705275
+      },
+      "NumHeterocycles": {
+        "type": "standard",
+        "skew": 1.7822920958185915
+      },
+      "FractionCSP3": {
+        "type": "standard",
+        "skew": 0.6774675104317475
+      },
+      "NumSpiroAtoms": {
+        "type": "robust",
+        "skew": 3.7086031365076066
+      },
+      "NumBridgeheadAtoms": {
+        "type": "robust",
+        "skew": 6.022496218454856
+      },
+      "NumHeteroatoms": {
+        "type": "standard",
+        "skew": 0.8484393944418932
+      },
+      "NumAmideBonds": {
+        "type": "standard",
+        "skew": 1.3386147238321982
+      },
+      "QED": {
+        "type": "standard",
+        "skew": -0.549953222683269
+      },
+      "CrippenMR": {
+        "type": "standard",
+        "skew": 0.7576232753992173
+      },
+      "GasteigerCharge_mean": {
+        "type": "robust",
+        "skew": 8.392035477409287
+      },
+      "GasteigerCharge_min": {
+        "type": "standard",
+        "skew": 0.3525514083282083
+      },
+      "GasteigerCharge_max": {
+        "type": "standard",
+        "skew": 0.13994514283634363
+      },
+      "PEOE_VSA_1": {
+        "type": "standard",
+        "skew": 1.8044758882639724
+      },
+      "PEOE_VSA_2": {
+        "type": "standard",
+        "skew": 1.6798443843871091
+      },
+      "PEOE_VSA_3": {
+        "type": "standard",
+        "skew": 0.9119241183164434
+      },
+      "PEOE_VSA_4": {
+        "type": "robust",
+        "skew": 2.395291429443105
+      },
+      "PEOE_VSA_5": {
+        "type": "robust",
+        "skew": 2.328026838785698
+      },
+      "PEOE_VSA_6": {
+        "type": "standard",
+        "skew": 1.0833614082937475
+      },
+      "PEOE_VSA_7": {
+        "type": "standard",
+        "skew": 0.7456763446420099
+      },
+      "PEOE_VSA_8": {
+        "type": "standard",
+        "skew": 0.8051441949201913
+      },
+      "PEOE_VSA_9": {
+        "type": "standard",
+        "skew": 1.3340059651768557
+      },
+      "PEOE_VSA_10": {
+        "type": "standard",
+        "skew": 1.2909299603048672
+      },
+      "PEOE_VSA_11": {
+        "type": "standard",
+        "skew": 1.8046693303451409
+      },
+      "PEOE_VSA_12": {
+        "type": "standard",
+        "skew": 1.3931402141913372
+      },
+      "PEOE_VSA_13": {
+        "type": "standard",
+        "skew": 1.192781253908341
+      },
+      "PEOE_VSA_14": {
+        "type": "standard",
+        "skew": 1.799122340814989
+      },
+      "SMR_VSA_1": {
+        "type": "standard",
+        "skew": 1.534617442079072
+      },
+      "SMR_VSA_2": {
+        "type": "robust",
+        "skew": 3.6352393115408264
+      },
+      "SMR_VSA_3": {
+        "type": "standard",
+        "skew": 0.9041589747596969
+      },
+      "SMR_VSA_4": {
+        "type": "robust",
+        "skew": 2.5156639558764073
+      },
+      "SMR_VSA_5": {
+        "type": "standard",
+        "skew": 1.6086620844253054
+      },
+      "SMR_VSA_6": {
+        "type": "standard",
+        "skew": 1.1454066171618866
+      },
+      "SMR_VSA_7": {
+        "type": "standard",
+        "skew": 0.3528222342764559
+      },
+      "SMR_VSA_9": {
+        "type": "standard",
+        "skew": 1.5300377328108368
+      },
+      "SMR_VSA_10": {
+        "type": "standard",
+        "skew": 1.4937526488463606
+      },
+      "SlogP_VSA_1": {
+        "type": "standard",
+        "skew": 0.7020380734801805
+      },
+      "SlogP_VSA_2": {
+        "type": "standard",
+        "skew": 1.356221905034213
+      },
+      "SlogP_VSA_3": {
+        "type": "standard",
+        "skew": 1.7348856377869055
+      },
+      "SlogP_VSA_4": {
+        "type": "standard",
+        "skew": 1.714395642395558
+      },
+      "SlogP_VSA_5": {
+        "type": "standard",
+        "skew": 1.5440716097139133
+      },
+      "SlogP_VSA_6": {
+        "type": "standard",
+        "skew": 0.3574782072976825
+      },
+      "SlogP_VSA_7": {
+        "type": "robust",
+        "skew": 2.529413019060985
+      },
+      "SlogP_VSA_8": {
+        "type": "standard",
+        "skew": 1.1986380440302487
+      },
+      "SlogP_VSA_10": {
+        "type": "standard",
+        "skew": 1.5645177305596465
+      },
+      "SlogP_VSA_11": {
+        "type": "standard",
+        "skew": 1.6957330231324235
+      },
+      "SlogP_VSA_12": {
+        "type": "standard",
+        "skew": 1.6111405212984575
+      },
+      "MACCS_11": {
+        "type": "robust",
+        "skew": 6.34135561084265
+      },
+      "MACCS_19": {
+        "type": "robust",
+        "skew": 4.765551089571634
+      },
+      "MACCS_22": {
+        "type": "robust",
+        "skew": 5.274490657936139
+      },
+      "MACCS_23": {
+        "type": "robust",
+        "skew": 5.599414479918854
+      },
+      "MACCS_24": {
+        "type": "robust",
+        "skew": 3.528407431470258
+      },
+      "MACCS_25": {
+        "type": "robust",
+        "skew": 2.9290748752082822
+      },
+      "MACCS_26": {
+        "type": "robust",
+        "skew": 6.104015006605882
+      },
+      "MACCS_28": {
+        "type": "robust",
+        "skew": 6.35754202509772
+      },
+      "MACCS_32": {
+        "type": "robust",
+        "skew": 3.082639736288433
+      },
+      "MACCS_33": {
+        "type": "robust",
+        "skew": 3.0070459065690858
+      },
+      "MACCS_36": {
+        "type": "robust",
+        "skew": 2.0991809284984515
+      },
+      "MACCS_37": {
+        "type": "robust",
+        "skew": 2.9562606513778964
+      },
+      "MACCS_38": {
+        "type": "standard",
+        "skew": 0.9115341048182082
+      },
+      "MACCS_41": {
+        "type": "robust",
+        "skew": 3.9375385154692393
+      },
+      "MACCS_42": {
+        "type": "robust",
+        "skew": 2.0282095474230064
+      },
+      "MACCS_43": {
+        "type": "robust",
+        "skew": 3.928112841626124
+      },
+      "MACCS_45": {
+        "type": "robust",
+        "skew": 5.628447782546513
+      },
+      "MACCS_47": {
+        "type": "standard",
+        "skew": 1.9410776245971781
+      },
+      "MACCS_49": {
+        "type": "robust",
+        "skew": 3.859091978720614
+      },
+      "MACCS_50": {
+        "type": "robust",
+        "skew": 3.436040893853703
+      },
+      "MACCS_52": {
+        "type": "standard",
+        "skew": 1.7759008303107147
+      },
+      "MACCS_53": {
+        "type": "robust",
+        "skew": 2.634044942647167
+      },
+      "MACCS_54": {
+        "type": "robust",
+        "skew": 2.491779837479187
+      },
+      "MACCS_57": {
+        "type": "standard",
+        "skew": 1.2672708803930604
+      },
+      "MACCS_58": {
+        "type": "robust",
+        "skew": 2.6065301062312485
+      },
+      "MACCS_59": {
+        "type": "standard",
+        "skew": 1.9387037762557202
+      },
+      "MACCS_61": {
+        "type": "robust",
+        "skew": 2.5409809580964806
+      },
+      "MACCS_62": {
+        "type": "standard",
+        "skew": 0.40762848898682286
+      },
+      "MACCS_63": {
+        "type": "robust",
+        "skew": 4.882746783322035
+      },
+      "MACCS_64": {
+        "type": "standard",
+        "skew": 1.8620851265015879
+      },
+      "MACCS_65": {
+        "type": "standard",
+        "skew": -0.3045427639624704
+      },
+      "MACCS_66": {
+        "type": "standard",
+        "skew": 1.7218774677027107
+      },
+      "MACCS_67": {
+        "type": "robust",
+        "skew": 2.4228521428160756
+      },
+      "MACCS_69": {
+        "type": "robust",
+        "skew": 2.2977919973480545
+      },
+      "MACCS_70": {
+        "type": "robust",
+        "skew": 3.5881083808889533
+      },
+      "MACCS_71": {
+        "type": "robust",
+        "skew": 2.9156730495375007
+      },
+      "MACCS_72": {
+        "type": "standard",
+        "skew": 1.4407789417007026
+      },
+      "MACCS_73": {
+        "type": "robust",
+        "skew": 2.167083118624211
+      },
+      "MACCS_74": {
+        "type": "standard",
+        "skew": 1.9674726421931708
+      },
+      "MACCS_75": {
+        "type": "standard",
+        "skew": -0.05962640004582586
+      },
+      "MACCS_76": {
+        "type": "robust",
+        "skew": 2.990343667412428
+      },
+      "MACCS_77": {
+        "type": "standard",
+        "skew": 0.1717461989925144
+      },
+      "MACCS_78": {
+        "type": "robust",
+        "skew": 2.776032419441865
+      },
+      "MACCS_79": {
+        "type": "standard",
+        "skew": 0.2133707497761108
+      },
+      "MACCS_80": {
+        "type": "standard",
+        "skew": -0.07919929737611493
+      },
+      "MACCS_81": {
+        "type": "standard",
+        "skew": 0.9865505496609712
+      },
+      "MACCS_82": {
+        "type": "standard",
+        "skew": 1.273475208318979
+      },
+      "MACCS_83": {
+        "type": "standard",
+        "skew": 0.016354853465964478
+      },
+      "MACCS_84": {
+        "type": "robust",
+        "skew": 2.3540159016762687
+      },
+      "MACCS_85": {
+        "type": "standard",
+        "skew": -0.15644596674163605
+      },
+      "MACCS_86": {
+        "type": "standard",
+        "skew": 0.3948187685439754
+      },
+      "MACCS_87": {
+        "type": "standard",
+        "skew": 1.0561594619002463
+      },
+      "MACCS_88": {
+        "type": "standard",
+        "skew": 0.8612616799696292
+      },
+      "MACCS_89": {
+        "type": "standard",
+        "skew": 1.4723619118433802
+      },
+      "MACCS_90": {
+        "type": "standard",
+        "skew": 0.9223470042893913
+      },
+      "MACCS_91": {
+        "type": "standard",
+        "skew": 0.7272553951120029
+      },
+      "MACCS_92": {
+        "type": "standard",
+        "skew": -0.19820558033516647
+      },
+      "MACCS_93": {
+        "type": "standard",
+        "skew": 0.47410574786416965
+      },
+      "MACCS_94": {
+        "type": "standard",
+        "skew": 0.8499635450320133
+      },
+      "MACCS_95": {
+        "type": "standard",
+        "skew": 0.09637158127521234
+      },
+      "MACCS_96": {
+        "type": "standard",
+        "skew": -0.09306768390392349
+      },
+      "MACCS_97": {
+        "type": "standard",
+        "skew": -0.0012073651482871262
+      },
+      "MACCS_98": {
+        "type": "standard",
+        "skew": -0.4896347915150083
+      },
+      "MACCS_99": {
+        "type": "robust",
+        "skew": 2.2542939034282075
+      },
+      "MACCS_100": {
+        "type": "standard",
+        "skew": -0.35045526512311836
+      },
+      "MACCS_101": {
+        "type": "standard",
+        "skew": 0.02338057263073109
+      },
+      "MACCS_102": {
+        "type": "standard",
+        "skew": 1.522425401515723
+      },
+      "MACCS_103": {
+        "type": "standard",
+        "skew": 1.8626451132635462
+      },
+      "MACCS_104": {
+        "type": "standard",
+        "skew": 0.7214453621087517
+      },
+      "MACCS_105": {
+        "type": "standard",
+        "skew": -0.2254395268035059
+      },
+      "MACCS_106": {
+        "type": "standard",
+        "skew": 0.44022165198082785
+      },
+      "MACCS_108": {
+        "type": "standard",
+        "skew": 1.3176568324063456
+      },
+      "MACCS_109": {
+        "type": "standard",
+        "skew": 0.9548950432927275
+      },
+      "MACCS_110": {
+        "type": "standard",
+        "skew": -0.39505125145523873
+      },
+      "MACCS_111": {
+        "type": "standard",
+        "skew": -0.4064619979600387
+      },
+      "MACCS_112": {
+        "type": "standard",
+        "skew": 0.7873745939793294
+      },
+      "MACCS_113": {
+        "type": "standard",
+        "skew": 0.24740530704869063
+      },
+      "MACCS_114": {
+        "type": "standard",
+        "skew": 1.914612276154611
+      },
+      "MACCS_115": {
+        "type": "standard",
+        "skew": 1.3954905229128323
+      },
+      "MACCS_116": {
+        "type": "standard",
+        "skew": 1.2437858079539696
+      },
+      "MACCS_117": {
+        "type": "standard",
+        "skew": -0.558022911804591
+      },
+      "MACCS_118": {
+        "type": "standard",
+        "skew": -0.16220792533666428
+      },
+      "MACCS_119": {
+        "type": "robust",
+        "skew": 2.2253233805981245
+      },
+      "MACCS_120": {
+        "type": "standard",
+        "skew": -0.8284062187264793
+      },
+      "MACCS_121": {
+        "type": "standard",
+        "skew": -1.4585607055158376
+      },
+      "MACCS_122": {
+        "type": "standard",
+        "skew": -0.5629404707027565
+      },
+      "MACCS_123": {
+        "type": "standard",
+        "skew": 1.2491724963374733
+      },
+      "MACCS_124": {
+        "type": "standard",
+        "skew": 0.6986253855510688
+      },
+      "MACCS_125": {
+        "type": "standard",
+        "skew": -1.2786043657966584
+      },
+      "MACCS_126": {
+        "type": "standard",
+        "skew": 0.40110124702595573
+      },
+      "MACCS_128": {
+        "type": "standard",
+        "skew": 0.19130341680147886
+      },
+      "MACCS_129": {
+        "type": "standard",
+        "skew": 0.1575537307515826
+      },
+      "MACCS_130": {
+        "type": "standard",
+        "skew": 1.5902967293836239
+      },
+      "MACCS_131": {
+        "type": "standard",
+        "skew": 0.6219653629113147
+      },
+      "MACCS_132": {
+        "type": "standard",
+        "skew": 0.385763844815623
+      },
+      "MACCS_133": {
+        "type": "standard",
+        "skew": -0.20533775945085986
+      },
+      "MACCS_134": {
+        "type": "standard",
+        "skew": 0.8209053601638036
+      },
+      "MACCS_135": {
+        "type": "standard",
+        "skew": -0.0664416980661512
+      },
+      "MACCS_136": {
+        "type": "standard",
+        "skew": 0.3985403503076115
+      },
+      "MACCS_137": {
+        "type": "robust",
+        "skew": -2.0422331209467717
+      },
+      "MACCS_138": {
+        "type": "standard",
+        "skew": 0.05786795974042721
+      },
+      "MACCS_139": {
+        "type": "standard",
+        "skew": 1.1173153007771783
+      },
+      "MACCS_140": {
+        "type": "standard",
+        "skew": 0.9792626870670543
+      },
+      "MACCS_141": {
+        "type": "standard",
+        "skew": 1.4002741051260552
+      },
+      "MACCS_142": {
+        "type": "standard",
+        "skew": -1.5640017139636506
+      },
+      "MACCS_143": {
+        "type": "standard",
+        "skew": -0.17596445520860085
+      },
+      "MACCS_144": {
+        "type": "standard",
+        "skew": -0.4275210455938256
+      },
+      "MACCS_145": {
+        "type": "standard",
+        "skew": -1.434628582119517
+      },
+      "MACCS_146": {
+        "type": "standard",
+        "skew": 0.08007946990936075
+      },
+      "MACCS_147": {
+        "type": "standard",
+        "skew": -0.20288521186876454
+      },
+      "MACCS_148": {
+        "type": "standard",
+        "skew": -0.7678534384688207
+      },
+      "MACCS_149": {
+        "type": "standard",
+        "skew": 0.24942688395562831
+      },
+      "MACCS_150": {
+        "type": "standard",
+        "skew": -0.6249927322599655
+      },
+      "MACCS_151": {
+        "type": "standard",
+        "skew": -0.519253059070122
+      },
+      "MACCS_152": {
+        "type": "standard",
+        "skew": -0.08183995483595016
+      },
+      "MACCS_153": {
+        "type": "standard",
+        "skew": -1.0147851270624202
+      },
+      "MACCS_154": {
+        "type": "standard",
+        "skew": -0.9602800377488474
+      },
+      "MACCS_155": {
+        "type": "standard",
+        "skew": -0.6207051093502812
+      },
+      "MACCS_156": {
+        "type": "robust",
+        "skew": -2.8332201593089867
+      },
+      "MACCS_157": {
+        "type": "standard",
+        "skew": -0.45179035867800577
+      },
+      "MACCS_158": {
+        "type": "robust",
+        "skew": -2.590088259762668
+      },
+      "MACCS_159": {
+        "type": "standard",
+        "skew": -0.9969294572663017
+      },
+      "MACCS_160": {
+        "type": "standard",
+        "skew": -1.0113839089063916
+      },
+      "MACCS_161": {
+        "type": "robust",
+        "skew": -4.09870062105291
+      },
+      "MACCS_162": {
+        "type": "robust",
+        "skew": -4.11176288374501
+      },
+      "MACCS_163": {
+        "type": "robust",
+        "skew": -5.969967184632877
+      },
+      "MACCS_164": {
+        "type": "robust",
+        "skew": -2.9108306368992127
+      },
+      "morgan_density": {
+        "type": "standard",
+        "skew": 0.6776442082703019
+      },
+      "N_count": {
+        "type": "standard",
+        "skew": 0.9203709341197415
+      },
+      "O_count": {
+        "type": "standard",
+        "skew": 1.6048771122974386
+      },
+      "S_count": {
+        "type": "standard",
+        "skew": 1.8801311634498863
+      },
+      "F_count": {
+        "type": "robust",
+        "skew": 3.7786842332948494
+      },
+      "Cl_count": {
+        "type": "robust",
+        "skew": 2.725607527639855
+      },
+      "Br_count": {
+        "type": "robust",
+        "skew": 5.6109798733914005
+      },
+      "frac_aromatic_atoms": {
+        "type": "standard",
+        "skew": -0.45223134466440673
+      },
+      "n_stereo_centers": {
+        "type": "robust",
+        "skew": 3.3670701340348703
+      },
+      "scaffold_size": {
+        "type": "standard",
+        "skew": 0.6152045053183222
+      },
+      "max_ring_size": {
+        "type": "robust",
+        "skew": 9.533084115486693
+      },
+      "mean_ring_size": {
+        "type": "robust",
+        "skew": 5.478148283719102
+      },
+      "tpsa_per_heavy": {
+        "type": "standard",
+        "skew": 1.3355690112383753
+      }
+    }
+  },
+  "missing_thresh": 0.15,
+  "skew_thresh": 2.0,
+  "indicator_thresh": 0.05,
+  "zero_ratio_thresh": 0.98,
+  "var_thresh": 1e-06,
+  "corr_thresh": 0.98,
+  "winsor_q": [
+    0.005,
+    0.995
+  ],
+  "min_features": 20,
+  "descriptor_dim": 206
+}

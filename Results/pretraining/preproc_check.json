@@ -1,0 +1,1808 @@
+{
+  "global": {
+    "meta_descriptor_dim": 206,
+    "kept_cols_count": 206
+  },
+  "tasks": {
+    "bbb_martins": {
+      "train": {
+        "desc": {
+          "shape": [
+            1186,
+            206
+          ],
+          "n_nan": 0,
+          "n_inf": 0,
+          "any_nonfinite": false,
+          "cols_with_any_nan": 0,
+          "cols_all_nan": 0,
+          "col_zero_var": 0,
+          "col_mean_min": -0.7514575962590765,
+          "col_mean_max": 2.3566610455311974,
+          "col_std_min": 0.0019722426879029403,
+          "col_std_max": 5.24337423431193,
+          "meta_descriptor_dim": 206,
+          "matches_meta_dim": true
+        },
+        "targets": {
+          "n": 1186,
+          "n_nan": 0,
+          "n_inf": 0,
+          "unique_vals": {
+            "1.0": 939,
+            "0.0": 247
+          },
+          "valid_binary": true,
+          "pos_rate": 0.7917369308600337
+        },
+        "graphs": {
+          "n_samples": 1186,
+          "empty_graphs": 0,
+          "atom_feat_len": 6,
+          "bond_feat_len": 4,
+          "inconsistent_atom/bond_feature_lengths": 0
+        },
+        "n_smiles": 1186,
+        "alignment_ok": true
+      },
+      "val": {
+        "desc": {
+          "shape": [
+            139,
+            206
+          ],
+          "n_nan": 0,
+          "n_inf": 0,
+          "any_nonfinite": false,
+          "cols_with_any_nan": 0,
+          "cols_all_nan": 0,
+          "col_zero_var": 1,
+          "col_mean_min": -1.1244093486275113,
+          "col_mean_max": 2.2494227192948655,
+          "col_std_min": 0.0,
+          "col_std_max": 5.053774112568882,
+          "meta_descriptor_dim": 206,
+          "matches_meta_dim": true
+        },
+        "targets": {
+          "n": 139,
+          "n_nan": 0,
+          "n_inf": 0,
+          "unique_vals": {
+            "1.0": 118,
+            "0.0": 21
+          },
+          "valid_binary": true,
+          "pos_rate": 0.8489208633093526
+        },
+        "graphs": {
+          "n_samples": 139,
+          "empty_graphs": 0,
+          "atom_feat_len": 6,
+          "bond_feat_len": 4,
+          "inconsistent_atom/bond_feature_lengths": 0
+        },
+        "n_smiles": 139,
+        "alignment_ok": true
+      },
+      "test": {
+        "desc": {
+          "shape": [
+            133,
+            206
+          ],
+          "n_nan": 0,
+          "n_inf": 0,
+          "any_nonfinite": false,
+          "cols_with_any_nan": 0,
+          "cols_all_nan": 0,
+          "col_zero_var": 0,
+          "col_mean_min": -0.7384699510597674,
+          "col_mean_max": 1.9548872180451127,
+          "col_std_min": 4.49443471645381e-18,
+          "col_std_max": 4.829813678684563,
+          "meta_descriptor_dim": 206,
+          "matches_meta_dim": true
+        },
+        "targets": {
+          "n": 133,
+          "n_nan": 0,
+          "n_inf": 0,
+          "unique_vals": {
+            "0.0": 36,
+            "1.0": 97
+          },
+          "valid_binary": true,
+          "pos_rate": 0.7293233082706767
+        },
+        "graphs": {
+          "n_samples": 133,
+          "empty_graphs": 0,
+          "atom_feat_len": 6,
+          "bond_feat_len": 4,
+          "inconsistent_atom/bond_feature_lengths": 0
+        },
+        "n_smiles": 133,
+        "alignment_ok": true
+      }
+    },
+    "bioavailability_ma": {
+      "train": {
+        "desc": {
+          "shape": [
+            169,
+            206
+          ],
+          "n_nan": 0,
+          "n_inf": 0,
+          "any_nonfinite": false,
+          "cols_with_any_nan": 0,
+          "cols_all_nan": 0,
+          "col_zero_var": 1,
+          "col_mean_min": -0.7637465095263487,
+          "col_mean_max": 2.2781065088757395,
+          "col_std_min": 0.0,
+          "col_std_max": 5.056733385068221,
+          "meta_descriptor_dim": 206,
+          "matches_meta_dim": true
+        },
+        "targets": {
+          "n": 169,
+          "n_nan": 0,
+          "n_inf": 0,
+          "unique_vals": {
+            "0.0": 61,
+            "1.0": 108
+          },
+          "valid_binary": true,
+          "pos_rate": 0.6390532544378699
+        },
+        "graphs": {
+          "n_samples": 169,
+          "empty_graphs": 0,
+          "atom_feat_len": 6,
+          "bond_feat_len": 4,
+          "inconsistent_atom/bond_feature_lengths": 0
+        },
+        "n_smiles": 169,
+        "alignment_ok": true
+      },
+      "val": {
+        "desc": {
+          "shape": [
+            14,
+            206
+          ],
+          "n_nan": 0,
+          "n_inf": 0,
+          "any_nonfinite": false,
+          "cols_with_any_nan": 0,
+          "cols_all_nan": 0,
+          "col_zero_var": 18,
+          "col_mean_min": -1.8664239402810527,
+          "col_mean_max": 2.466888219553969,
+          "col_std_min": 0.0,
+          "col_std_max": 5.75117309918291,
+          "meta_descriptor_dim": 206,
+          "matches_meta_dim": true
+        },
+        "targets": {
+          "n": 14,
+          "n_nan": 0,
+          "n_inf": 0,
+          "unique_vals": {
+            "0.0": 3,
+            "1.0": 11
+          },
+          "valid_binary": true,
+          "pos_rate": 0.7857142857142857
+        },
+        "graphs": {
+          "n_samples": 14,
+          "empty_graphs": 0,
+          "atom_feat_len": 6,
+          "bond_feat_len": 4,
+          "inconsistent_atom/bond_feature_lengths": 0
+        },
+        "n_smiles": 14,
+        "alignment_ok": true
+      },
+      "test": {
+        "desc": {
+          "shape": [
+            19,
+            206
+          ],
+          "n_nan": 0,
+          "n_inf": 0,
+          "any_nonfinite": false,
+          "cols_with_any_nan": 0,
+          "cols_all_nan": 0,
+          "col_zero_var": 8,
+          "col_mean_min": -0.6870897055928749,
+          "col_mean_max": 3.1052631578947367,
+          "col_std_min": 0.0,
+          "col_std_max": 4.286893533933888,
+          "meta_descriptor_dim": 206,
+          "matches_meta_dim": true
+        },
+        "targets": {
+          "n": 19,
+          "n_nan": 0,
+          "n_inf": 0,
+          "unique_vals": {
+            "1.0": 15,
+            "0.0": 4
+          },
+          "valid_binary": true,
+          "pos_rate": 0.7894736842105263
+        },
+        "graphs": {
+          "n_samples": 19,
+          "empty_graphs": 0,
+          "atom_feat_len": 6,
+          "bond_feat_len": 4,
+          "inconsistent_atom/bond_feature_lengths": 0
+        },
+        "n_smiles": 19,
+        "alignment_ok": true
+      }
+    },
+    "clearance_hepatocyte_az": {
+      "train": {
+        "desc": {
+          "shape": [
+            718,
+            206
+          ],
+          "n_nan": 0,
+          "n_inf": 0,
+          "any_nonfinite": false,
+          "cols_with_any_nan": 0,
+          "cols_all_nan": 0,
+          "col_zero_var": 0,
+          "col_mean_min": -0.3231340339493416,
+          "col_mean_max": 1.613303441897684,
+          "col_std_min": 0.0028150308896035246,
+          "col_std_max": 4.149437470680038,
+          "meta_descriptor_dim": 206,
+          "matches_meta_dim": true
+        },
+        "targets": {
+          "n": 718,
+          "n_nan": 0,
+          "n_inf": 0,
+          "mean": 5.690279569109438e-17,
+          "std": 0.9999999999999998,
+          "min": -0.8601072195435704,
+          "max": 2.000496167013415
+        },
+        "graphs": {
+          "n_samples": 718,
+          "empty_graphs": 0,
+          "atom_feat_len": 6,
+          "bond_feat_len": 4,
+          "inconsistent_atom/bond_feature_lengths": 0
+        },
+        "n_smiles": 718,
+        "alignment_ok": true
+      },
+      "val": {
+        "desc": {
+          "shape": [
+            78,
+            206
+          ],
+          "n_nan": 0,
+          "n_inf": 0,
+          "any_nonfinite": false,
+          "cols_with_any_nan": 0,
+          "cols_all_nan": 0,
+          "col_zero_var": 0,
+          "col_mean_min": -0.37990292128785685,
+          "col_mean_max": 2.7653944394059464,
+          "col_std_min": 0.0034610496788919105,
+          "col_std_max": 5.358585604290124,
+          "meta_descriptor_dim": 206,
+          "matches_meta_dim": true
+        },
+        "targets": {
+          "n": 78,
+          "n_nan": 0,
+          "n_inf": 0,
+          "mean": 0.033236315288111176,
+          "std": 0.9481905848501876,
+          "min": -0.8601072195435704,
+          "max": 2.000496167013415
+        },
+        "graphs": {
+          "n_samples": 78,
+          "empty_graphs": 0,
+          "atom_feat_len": 6,
+          "bond_feat_len": 4,
+          "inconsistent_atom/bond_feature_lengths": 0
+        },
+        "n_smiles": 78,
+        "alignment_ok": true
+      },
+      "test": {
+        "desc": {
+          "shape": [
+            83,
+            206
+          ],
+          "n_nan": 0,
+          "n_inf": 0,
+          "any_nonfinite": false,
+          "cols_with_any_nan": 0,
+          "cols_all_nan": 0,
+          "col_zero_var": 5,
+          "col_mean_min": -0.30024972240430253,
+          "col_mean_max": 1.8071409049908929,
+          "col_std_min": 0.0,
+          "col_std_max": 3.2543744520876667,
+          "meta_descriptor_dim": 206,
+          "matches_meta_dim": true
+        },
+        "targets": {
+          "n": 83,
+          "n_nan": 0,
+          "n_inf": 0,
+          "mean": -0.15101238351613996,
+          "std": 0.9799240788993775,
+          "min": -0.8601072195435704,
+          "max": 2.000496167013415
+        },
+        "graphs": {
+          "n_samples": 83,
+          "empty_graphs": 0,
+          "atom_feat_len": 6,
+          "bond_feat_len": 4,
+          "inconsistent_atom/bond_feature_lengths": 0
+        },
+        "n_smiles": 83,
+        "alignment_ok": true
+      }
+    },
+    "clearance_microsome_az": {
+      "train": {
+        "desc": {
+          "shape": [
+            813,
+            206
+          ],
+          "n_nan": 0,
+          "n_inf": 0,
+          "any_nonfinite": false,
+          "cols_with_any_nan": 0,
+          "cols_all_nan": 0,
+          "col_zero_var": 0,
+          "col_mean_min": -0.3656539452457127,
+          "col_mean_max": 2.081950679692959,
+          "col_std_min": 0.0027681580707343218,
+          "col_std_max": 4.231090051414438,
+          "meta_descriptor_dim": 206,
+          "matches_meta_dim": true
+        },
+        "targets": {
+          "n": 813,
+          "n_nan": 0,
+          "n_inf": 0,
+          "mean": -1.0487715656975648e-16,
+          "std": 1.0,
+          "min": -0.7023316873545867,
+          "max": 2.554156053049105
+        },
+        "graphs": {
+          "n_samples": 813,
+          "empty_graphs": 0,
+          "atom_feat_len": 6,
+          "bond_feat_len": 4,
+          "inconsistent_atom/bond_feature_lengths": 0
+        },
+        "n_smiles": 813,
+        "alignment_ok": true
+      },
+      "val": {
+        "desc": {
+          "shape": [
+            73,
+            206
+          ],
+          "n_nan": 0,
+          "n_inf": 0,
+          "any_nonfinite": false,
+          "cols_with_any_nan": 0,
+          "cols_all_nan": 0,
+          "col_zero_var": 1,
+          "col_mean_min": -0.43592306472854137,
+          "col_mean_max": 3.2742015157017708,
+          "col_std_min": 0.0,
+          "col_std_max": 6.186095116435794,
+          "meta_descriptor_dim": 206,
+          "matches_meta_dim": true
+        },
+        "targets": {
+          "n": 73,
+          "n_nan": 0,
+          "n_inf": 0,
+          "mean": 0.35345495859066384,
+          "std": 1.162132638168464,
+          "min": -0.7023316873545867,
+          "max": 2.554156053049105
+        },
+        "graphs": {
+          "n_samples": 73,
+          "empty_graphs": 0,
+          "atom_feat_len": 6,
+          "bond_feat_len": 4,
+          "inconsistent_atom/bond_feature_lengths": 0
+        },
+        "n_smiles": 73,
+        "alignment_ok": true
+      },
+      "test": {
+        "desc": {
+          "shape": [
+            124,
+            206
+          ],
+          "n_nan": 0,
+          "n_inf": 0,
+          "any_nonfinite": false,
+          "cols_with_any_nan": 0,
+          "cols_all_nan": 0,
+          "col_zero_var": 2,
+          "col_mean_min": -0.5309244965107395,
+          "col_mean_max": 3.0739056778185203,
+          "col_std_min": 0.0,
+          "col_std_max": 4.119233070190152,
+          "meta_descriptor_dim": 206,
+          "matches_meta_dim": true
+        },
+        "targets": {
+          "n": 124,
+          "n_nan": 0,
+          "n_inf": 0,
+          "mean": -0.14528076767918982,
+          "std": 0.8763985051634916,
+          "min": -0.7023316873545867,
+          "max": 2.554156053049105
+        },
+        "graphs": {
+          "n_samples": 124,
+          "empty_graphs": 0,
+          "atom_feat_len": 6,
+          "bond_feat_len": 4,
+          "inconsistent_atom/bond_feature_lengths": 0
+        },
+        "n_smiles": 124,
+        "alignment_ok": true
+      }
+    },
+    "cyp2c9_substrate_carbonmangels": {
+      "train": {
+        "desc": {
+          "shape": [
+            329,
+            206
+          ],
+          "n_nan": 0,
+          "n_inf": 0,
+          "any_nonfinite": false,
+          "cols_with_any_nan": 0,
+          "cols_all_nan": 0,
+          "col_zero_var": 0,
+          "col_mean_min": -0.5724580797098785,
+          "col_mean_max": 1.762917933130699,
+          "col_std_min": 4.554821895225925e-18,
+          "col_std_max": 4.233539927750963,
+          "meta_descriptor_dim": 206,
+          "matches_meta_dim": true
+        },
+        "targets": {
+          "n": 329,
+          "n_nan": 0,
+          "n_inf": 0,
+          "unique_vals": {
+            "0.0": 272,
+            "1.0": 57
+          },
+          "valid_binary": true,
+          "pos_rate": 0.17325227963525835
+        },
+        "graphs": {
+          "n_samples": 329,
+          "empty_graphs": 0,
+          "atom_feat_len": 6,
+          "bond_feat_len": 4,
+          "inconsistent_atom/bond_feature_lengths": 0
+        },
+        "n_smiles": 329,
+        "alignment_ok": true
+      },
+      "val": {
+        "desc": {
+          "shape": [
+            35,
+            206
+          ],
+          "n_nan": 0,
+          "n_inf": 0,
+          "any_nonfinite": false,
+          "cols_with_any_nan": 0,
+          "cols_all_nan": 0,
+          "col_zero_var": 5,
+          "col_mean_min": -0.8932202942101873,
+          "col_mean_max": 2.688122807901144,
+          "col_std_min": 0.0,
+          "col_std_max": 5.603167430963616,
+          "meta_descriptor_dim": 206,
+          "matches_meta_dim": true
+        },
+        "targets": {
+          "n": 35,
+          "n_nan": 0,
+          "n_inf": 0,
+          "unique_vals": {
+            "0.0": 26,
+            "1.0": 9
+          },
+          "valid_binary": true,
+          "pos_rate": 0.2571428571428571
+        },
+        "graphs": {
+          "n_samples": 35,
+          "empty_graphs": 0,
+          "atom_feat_len": 6,
+          "bond_feat_len": 4,
+          "inconsistent_atom/bond_feature_lengths": 0
+        },
+        "n_smiles": 35,
+        "alignment_ok": true
+      },
+      "test": {
+        "desc": {
+          "shape": [
+            31,
+            206
+          ],
+          "n_nan": 0,
+          "n_inf": 0,
+          "any_nonfinite": false,
+          "cols_with_any_nan": 0,
+          "cols_all_nan": 0,
+          "col_zero_var": 6,
+          "col_mean_min": -0.6525172924465295,
+          "col_mean_max": 2.3870967741935485,
+          "col_std_min": 0.0,
+          "col_std_max": 3.609428740052529,
+          "meta_descriptor_dim": 206,
+          "matches_meta_dim": true
+        },
+        "targets": {
+          "n": 31,
+          "n_nan": 0,
+          "n_inf": 0,
+          "unique_vals": {
+            "0.0": 27,
+            "1.0": 4
+          },
+          "valid_binary": true,
+          "pos_rate": 0.12903225806451613
+        },
+        "graphs": {
+          "n_samples": 31,
+          "empty_graphs": 0,
+          "atom_feat_len": 6,
+          "bond_feat_len": 4,
+          "inconsistent_atom/bond_feature_lengths": 0
+        },
+        "n_smiles": 31,
+        "alignment_ok": true
+      }
+    },
+    "cyp2c9_veith": {
+      "train": {
+        "desc": {
+          "shape": [
+            9304,
+            206
+          ],
+          "n_nan": 0,
+          "n_inf": 0,
+          "any_nonfinite": false,
+          "cols_with_any_nan": 0,
+          "cols_all_nan": 0,
+          "col_zero_var": 0,
+          "col_mean_min": -0.15004299226139295,
+          "col_mean_max": 2.001115288785826,
+          "col_std_min": 0.002975651147982714,
+          "col_std_max": 4.571683706982923,
+          "meta_descriptor_dim": 206,
+          "matches_meta_dim": true
+        },
+        "targets": {
+          "n": 9304,
+          "n_nan": 0,
+          "n_inf": 0,
+          "unique_vals": {
+            "0.0": 6106,
+            "1.0": 3198
+          },
+          "valid_binary": true,
+          "pos_rate": 0.3437231298366294
+        },
+        "graphs": {
+          "n_samples": 9304,
+          "empty_graphs": 0,
+          "atom_feat_len": 6,
+          "bond_feat_len": 4,
+          "inconsistent_atom/bond_feature_lengths": 0
+        },
+        "n_smiles": 9304,
+        "alignment_ok": true
+      },
+      "val": {
+        "desc": {
+          "shape": [
+            1157,
+            206
+          ],
+          "n_nan": 0,
+          "n_inf": 0,
+          "any_nonfinite": false,
+          "cols_with_any_nan": 0,
+          "cols_all_nan": 0,
+          "col_zero_var": 0,
+          "col_mean_min": -0.6095268963246481,
+          "col_mean_max": 2.1003679351349582,
+          "col_std_min": 0.004166420658569202,
+          "col_std_max": 4.679143509851923,
+          "meta_descriptor_dim": 206,
+          "matches_meta_dim": true
+        },
+        "targets": {
+          "n": 1157,
+          "n_nan": 0,
+          "n_inf": 0,
+          "unique_vals": {
+            "0.0": 812,
+            "1.0": 345
+          },
+          "valid_binary": true,
+          "pos_rate": 0.29818496110630943
+        },
+        "graphs": {
+          "n_samples": 1157,
+          "empty_graphs": 0,
+          "atom_feat_len": 6,
+          "bond_feat_len": 4,
+          "inconsistent_atom/bond_feature_lengths": 0
+        },
+        "n_smiles": 1157,
+        "alignment_ok": true
+      },
+      "test": {
+        "desc": {
+          "shape": [
+            1164,
+            206
+          ],
+          "n_nan": 0,
+          "n_inf": 0,
+          "any_nonfinite": false,
+          "cols_with_any_nan": 0,
+          "cols_all_nan": 0,
+          "col_zero_var": 0,
+          "col_mean_min": -0.17834364252452803,
+          "col_mean_max": 2.308465133194796,
+          "col_std_min": 0.002428141433223104,
+          "col_std_max": 4.851978159454517,
+          "meta_descriptor_dim": 206,
+          "matches_meta_dim": true
+        },
+        "targets": {
+          "n": 1164,
+          "n_nan": 0,
+          "n_inf": 0,
+          "unique_vals": {
+            "0.0": 724,
+            "1.0": 440
+          },
+          "valid_binary": true,
+          "pos_rate": 0.37800687285223367
+        },
+        "graphs": {
+          "n_samples": 1164,
+          "empty_graphs": 0,
+          "atom_feat_len": 6,
+          "bond_feat_len": 4,
+          "inconsistent_atom/bond_feature_lengths": 0
+        },
+        "n_smiles": 1164,
+        "alignment_ok": true
+      }
+    },
+    "cyp2d6_substrate_carbonmangels": {
+      "train": {
+        "desc": {
+          "shape": [
+            325,
+            206
+          ],
+          "n_nan": 0,
+          "n_inf": 0,
+          "any_nonfinite": false,
+          "cols_with_any_nan": 0,
+          "cols_all_nan": 0,
+          "col_zero_var": 0,
+          "col_mean_min": -0.5760700131346033,
+          "col_mean_max": 1.7446153846153847,
+          "col_std_min": 4.575397487474102e-18,
+          "col_std_max": 4.25240649077893,
+          "meta_descriptor_dim": 206,
+          "matches_meta_dim": true
+        },
+        "targets": {
+          "n": 325,
+          "n_nan": 0,
+          "n_inf": 0,
+          "unique_vals": {
+            "0.0": 234,
+            "1.0": 91
+          },
+          "valid_binary": true,
+          "pos_rate": 0.28
+        },
+        "graphs": {
+          "n_samples": 325,
+          "empty_graphs": 0,
+          "atom_feat_len": 6,
+          "bond_feat_len": 4,
+          "inconsistent_atom/bond_feature_lengths": 0
+        },
+        "n_smiles": 325,
+        "alignment_ok": true
+      },
+      "val": {
+        "desc": {
+          "shape": [
+            35,
+            206
+          ],
+          "n_nan": 0,
+          "n_inf": 0,
+          "any_nonfinite": false,
+          "cols_with_any_nan": 0,
+          "cols_all_nan": 0,
+          "col_zero_var": 5,
+          "col_mean_min": -0.8932202942101873,
+          "col_mean_max": 2.688122807901144,
+          "col_std_min": 0.0,
+          "col_std_max": 5.603167430963616,
+          "meta_descriptor_dim": 206,
+          "matches_meta_dim": true
+        },
+        "targets": {
+          "n": 35,
+          "n_nan": 0,
+          "n_inf": 0,
+          "unique_vals": {
+            "0.0": 24,
+            "1.0": 11
+          },
+          "valid_binary": true,
+          "pos_rate": 0.3142857142857143
+        },
+        "graphs": {
+          "n_samples": 35,
+          "empty_graphs": 0,
+          "atom_feat_len": 6,
+          "bond_feat_len": 4,
+          "inconsistent_atom/bond_feature_lengths": 0
+        },
+        "n_smiles": 35,
+        "alignment_ok": true
+      },
+      "test": {
+        "desc": {
+          "shape": [
+            31,
+            206
+          ],
+          "n_nan": 0,
+          "n_inf": 0,
+          "any_nonfinite": false,
+          "cols_with_any_nan": 0,
+          "cols_all_nan": 0,
+          "col_zero_var": 6,
+          "col_mean_min": -0.6525172924465295,
+          "col_mean_max": 2.3870967741935485,
+          "col_std_min": 0.0,
+          "col_std_max": 3.609428740052529,
+          "meta_descriptor_dim": 206,
+          "matches_meta_dim": true
+        },
+        "targets": {
+          "n": 31,
+          "n_nan": 0,
+          "n_inf": 0,
+          "unique_vals": {
+            "1.0": 10,
+            "0.0": 21
+          },
+          "valid_binary": true,
+          "pos_rate": 0.3225806451612903
+        },
+        "graphs": {
+          "n_samples": 31,
+          "empty_graphs": 0,
+          "atom_feat_len": 6,
+          "bond_feat_len": 4,
+          "inconsistent_atom/bond_feature_lengths": 0
+        },
+        "n_smiles": 31,
+        "alignment_ok": true
+      }
+    },
+    "cyp2d6_veith": {
+      "train": {
+        "desc": {
+          "shape": [
+            10114,
+            206
+          ],
+          "n_nan": 0,
+          "n_inf": 0,
+          "any_nonfinite": false,
+          "cols_with_any_nan": 0,
+          "cols_all_nan": 0,
+          "col_zero_var": 0,
+          "col_mean_min": -0.1527585525014831,
+          "col_mean_max": 2.0564775863303186,
+          "col_std_min": 0.002752341085678221,
+          "col_std_max": 4.598328049283214,
+          "meta_descriptor_dim": 206,
+          "matches_meta_dim": true
+        },
+        "targets": {
+          "n": 10114,
+          "n_nan": 0,
+          "n_inf": 0,
+          "unique_vals": {
+            "0.0": 8122,
+            "1.0": 1992
+          },
+          "valid_binary": true,
+          "pos_rate": 0.1969547162349219
+        },
+        "graphs": {
+          "n_samples": 10114,
+          "empty_graphs": 0,
+          "atom_feat_len": 6,
+          "bond_feat_len": 4,
+          "inconsistent_atom/bond_feature_lengths": 0
+        },
+        "n_smiles": 10114,
+        "alignment_ok": true
+      },
+      "val": {
+        "desc": {
+          "shape": [
+            1300,
+            206
+          ],
+          "n_nan": 0,
+          "n_inf": 0,
+          "any_nonfinite": false,
+          "cols_with_any_nan": 0,
+          "cols_all_nan": 0,
+          "col_zero_var": 0,
+          "col_mean_min": -0.5911648351648341,
+          "col_mean_max": 2.3210148686917345,
+          "col_std_min": 0.003760619067076571,
+          "col_std_max": 4.973819037721751,
+          "meta_descriptor_dim": 206,
+          "matches_meta_dim": true
+        },
+        "targets": {
+          "n": 1300,
+          "n_nan": 0,
+          "n_inf": 0,
+          "unique_vals": {
+            "0.0": 1079,
+            "1.0": 221
+          },
+          "valid_binary": true,
+          "pos_rate": 0.17
+        },
+        "graphs": {
+          "n_samples": 1300,
+          "empty_graphs": 0,
+          "atom_feat_len": 6,
+          "bond_feat_len": 4,
+          "inconsistent_atom/bond_feature_lengths": 0
+        },
+        "n_smiles": 1300,
+        "alignment_ok": true
+      },
+      "test": {
+        "desc": {
+          "shape": [
+            1259,
+            206
+          ],
+          "n_nan": 0,
+          "n_inf": 0,
+          "any_nonfinite": false,
+          "cols_with_any_nan": 0,
+          "cols_all_nan": 0,
+          "col_zero_var": 0,
+          "col_mean_min": -0.15538192869868056,
+          "col_mean_max": 2.3186362514647096,
+          "col_std_min": 0.0020681173470680227,
+          "col_std_max": 4.9074553157119745,
+          "meta_descriptor_dim": 206,
+          "matches_meta_dim": true
+        },
+        "targets": {
+          "n": 1259,
+          "n_nan": 0,
+          "n_inf": 0,
+          "unique_vals": {
+            "0.0": 1020,
+            "1.0": 239
+          },
+          "valid_binary": true,
+          "pos_rate": 0.1898332009531374
+        },
+        "graphs": {
+          "n_samples": 1259,
+          "empty_graphs": 0,
+          "atom_feat_len": 6,
+          "bond_feat_len": 4,
+          "inconsistent_atom/bond_feature_lengths": 0
+        },
+        "n_smiles": 1259,
+        "alignment_ok": true
+      }
+    },
+    "cyp3a4_substrate_carbonmangels": {
+      "train": {
+        "desc": {
+          "shape": [
+            331,
+            206
+          ],
+          "n_nan": 0,
+          "n_inf": 0,
+          "any_nonfinite": false,
+          "cols_with_any_nan": 0,
+          "cols_all_nan": 0,
+          "col_zero_var": 0,
+          "col_mean_min": -0.5644118095412627,
+          "col_mean_max": 1.8187311178247734,
+          "col_std_min": 4.5539830373607864e-18,
+          "col_std_max": 4.214197928903156,
+          "meta_descriptor_dim": 206,
+          "matches_meta_dim": true
+        },
+        "targets": {
+          "n": 331,
+          "n_nan": 0,
+          "n_inf": 0,
+          "unique_vals": {
+            "0.0": 157,
+            "1.0": 174
+          },
+          "valid_binary": true,
+          "pos_rate": 0.525679758308157
+        },
+        "graphs": {
+          "n_samples": 331,
+          "empty_graphs": 0,
+          "atom_feat_len": 6,
+          "bond_feat_len": 4,
+          "inconsistent_atom/bond_feature_lengths": 0
+        },
+        "n_smiles": 331,
+        "alignment_ok": true
+      },
+      "val": {
+        "desc": {
+          "shape": [
+            35,
+            206
+          ],
+          "n_nan": 0,
+          "n_inf": 0,
+          "any_nonfinite": false,
+          "cols_with_any_nan": 0,
+          "cols_all_nan": 0,
+          "col_zero_var": 5,
+          "col_mean_min": -0.8932202942101873,
+          "col_mean_max": 2.688122807901144,
+          "col_std_min": 0.0,
+          "col_std_max": 5.603167430963616,
+          "meta_descriptor_dim": 206,
+          "matches_meta_dim": true
+        },
+        "targets": {
+          "n": 35,
+          "n_nan": 0,
+          "n_inf": 0,
+          "unique_vals": {
+            "0.0": 19,
+            "1.0": 16
+          },
+          "valid_binary": true,
+          "pos_rate": 0.45714285714285713
+        },
+        "graphs": {
+          "n_samples": 35,
+          "empty_graphs": 0,
+          "atom_feat_len": 6,
+          "bond_feat_len": 4,
+          "inconsistent_atom/bond_feature_lengths": 0
+        },
+        "n_smiles": 35,
+        "alignment_ok": true
+      },
+      "test": {
+        "desc": {
+          "shape": [
+            30,
+            206
+          ],
+          "n_nan": 0,
+          "n_inf": 0,
+          "any_nonfinite": false,
+          "cols_with_any_nan": 0,
+          "cols_all_nan": 0,
+          "col_zero_var": 6,
+          "col_mean_min": -0.6808131308922953,
+          "col_mean_max": 2.466666666666667,
+          "col_std_min": 0.0,
+          "col_std_max": 3.6585473260503387,
+          "meta_descriptor_dim": 206,
+          "matches_meta_dim": true
+        },
+        "targets": {
+          "n": 30,
+          "n_nan": 0,
+          "n_inf": 0,
+          "unique_vals": {
+            "1.0": 19,
+            "0.0": 11
+          },
+          "valid_binary": true,
+          "pos_rate": 0.6333333333333333
+        },
+        "graphs": {
+          "n_samples": 30,
+          "empty_graphs": 0,
+          "atom_feat_len": 6,
+          "bond_feat_len": 4,
+          "inconsistent_atom/bond_feature_lengths": 0
+        },
+        "n_smiles": 30,
+        "alignment_ok": true
+      }
+    },
+    "cyp3a4_veith": {
+      "train": {
+        "desc": {
+          "shape": [
+            9493,
+            206
+          ],
+          "n_nan": 0,
+          "n_inf": 0,
+          "any_nonfinite": false,
+          "cols_with_any_nan": 0,
+          "cols_all_nan": 0,
+          "col_zero_var": 0,
+          "col_mean_min": -0.15801116612240598,
+          "col_mean_max": 2.110170552374928,
+          "col_std_min": 0.002945521074820618,
+          "col_std_max": 4.682958697075845,
+          "meta_descriptor_dim": 206,
+          "matches_meta_dim": true
+        },
+        "targets": {
+          "n": 9493,
+          "n_nan": 0,
+          "n_inf": 0,
+          "unique_vals": {
+            "0.0": 5450,
+            "1.0": 4043
+          },
+          "valid_binary": true,
+          "pos_rate": 0.4258927630885916
+        },
+        "graphs": {
+          "n_samples": 9493,
+          "empty_graphs": 0,
+          "atom_feat_len": 6,
+          "bond_feat_len": 4,
+          "inconsistent_atom/bond_feature_lengths": 0
+        },
+        "n_smiles": 9493,
+        "alignment_ok": true
+      },
+      "val": {
+        "desc": {
+          "shape": [
+            1212,
+            206
+          ],
+          "n_nan": 0,
+          "n_inf": 0,
+          "any_nonfinite": false,
+          "cols_with_any_nan": 0,
+          "cols_all_nan": 0,
+          "col_zero_var": 0,
+          "col_mean_min": -0.6310668120383455,
+          "col_mean_max": 2.2065044434773173,
+          "col_std_min": 0.0041601687741443915,
+          "col_std_max": 4.855219241371141,
+          "meta_descriptor_dim": 206,
+          "matches_meta_dim": true
+        },
+        "targets": {
+          "n": 1212,
+          "n_nan": 0,
+          "n_inf": 0,
+          "unique_vals": {
+            "0.0": 788,
+            "1.0": 424
+          },
+          "valid_binary": true,
+          "pos_rate": 0.34983498349834985
+        },
+        "graphs": {
+          "n_samples": 1212,
+          "empty_graphs": 0,
+          "atom_feat_len": 6,
+          "bond_feat_len": 4,
+          "inconsistent_atom/bond_feature_lengths": 0
+        },
+        "n_smiles": 1212,
+        "alignment_ok": true
+      },
+      "test": {
+        "desc": {
+          "shape": [
+            1217,
+            206
+          ],
+          "n_nan": 0,
+          "n_inf": 0,
+          "any_nonfinite": false,
+          "cols_with_any_nan": 0,
+          "cols_all_nan": 0,
+          "col_zero_var": 0,
+          "col_mean_min": -0.16050937265974322,
+          "col_mean_max": 2.1858821106500392,
+          "col_std_min": 0.00218479512685749,
+          "col_std_max": 4.781094942210642,
+          "meta_descriptor_dim": 206,
+          "matches_meta_dim": true
+        },
+        "targets": {
+          "n": 1217,
+          "n_nan": 0,
+          "n_inf": 0,
+          "unique_vals": {
+            "0.0": 660,
+            "1.0": 557
+          },
+          "valid_binary": true,
+          "pos_rate": 0.45768282662284304
+        },
+        "graphs": {
+          "n_samples": 1217,
+          "empty_graphs": 0,
+          "atom_feat_len": 6,
+          "bond_feat_len": 4,
+          "inconsistent_atom/bond_feature_lengths": 0
+        },
+        "n_smiles": 1217,
+        "alignment_ok": true
+      }
+    },
+    "hia_hou": {
+      "train": {
+        "desc": {
+          "shape": [
+            355,
+            206
+          ],
+          "n_nan": 0,
+          "n_inf": 0,
+          "any_nonfinite": false,
+          "cols_with_any_nan": 0,
+          "cols_all_nan": 0,
+          "col_zero_var": 0,
+          "col_mean_min": -0.8996609585127847,
+          "col_mean_max": 2.3267605633802817,
+          "col_std_min": 0.0052324732756694504,
+          "col_std_max": 4.958326218579376,
+          "meta_descriptor_dim": 206,
+          "matches_meta_dim": true
+        },
+        "targets": {
+          "n": 355,
+          "n_nan": 0,
+          "n_inf": 0,
+          "unique_vals": {
+            "1.0": 296,
+            "0.0": 59
+          },
+          "valid_binary": true,
+          "pos_rate": 0.8338028169014085
+        },
+        "graphs": {
+          "n_samples": 355,
+          "empty_graphs": 0,
+          "atom_feat_len": 6,
+          "bond_feat_len": 4,
+          "inconsistent_atom/bond_feature_lengths": 0
+        },
+        "n_smiles": 355,
+        "alignment_ok": true
+      },
+      "val": {
+        "desc": {
+          "shape": [
+            34,
+            206
+          ],
+          "n_nan": 0,
+          "n_inf": 0,
+          "any_nonfinite": false,
+          "cols_with_any_nan": 0,
+          "cols_all_nan": 0,
+          "col_zero_var": 6,
+          "col_mean_min": -1.2118689161929364,
+          "col_mean_max": 2.323529411764706,
+          "col_std_min": 0.0,
+          "col_std_max": 4.496628558542259,
+          "meta_descriptor_dim": 206,
+          "matches_meta_dim": true
+        },
+        "targets": {
+          "n": 34,
+          "n_nan": 0,
+          "n_inf": 0,
+          "unique_vals": {
+            "1.0": 24,
+            "0.0": 10
+          },
+          "valid_binary": true,
+          "pos_rate": 0.7058823529411765
+        },
+        "graphs": {
+          "n_samples": 34,
+          "empty_graphs": 0,
+          "atom_feat_len": 6,
+          "bond_feat_len": 4,
+          "inconsistent_atom/bond_feature_lengths": 0
+        },
+        "n_smiles": 34,
+        "alignment_ok": true
+      },
+      "test": {
+        "desc": {
+          "shape": [
+            40,
+            206
+          ],
+          "n_nan": 0,
+          "n_inf": 0,
+          "any_nonfinite": false,
+          "cols_with_any_nan": 0,
+          "cols_all_nan": 0,
+          "col_zero_var": 8,
+          "col_mean_min": -0.7184655348384725,
+          "col_mean_max": 2.1807416766042316,
+          "col_std_min": 0.0,
+          "col_std_max": 5.728098406444404,
+          "meta_descriptor_dim": 206,
+          "matches_meta_dim": true
+        },
+        "targets": {
+          "n": 40,
+          "n_nan": 0,
+          "n_inf": 0,
+          "unique_vals": {
+            "1.0": 38,
+            "0.0": 2
+          },
+          "valid_binary": true,
+          "pos_rate": 0.95
+        },
+        "graphs": {
+          "n_samples": 40,
+          "empty_graphs": 0,
+          "atom_feat_len": 6,
+          "bond_feat_len": 4,
+          "inconsistent_atom/bond_feature_lengths": 0
+        },
+        "n_smiles": 40,
+        "alignment_ok": true
+      }
+    },
+    "lipophilicity_astrazeneca": {
+      "train": {
+        "desc": {
+          "shape": [
+            3017,
+            206
+          ],
+          "n_nan": 0,
+          "n_inf": 0,
+          "any_nonfinite": false,
+          "cols_with_any_nan": 0,
+          "cols_all_nan": 0,
+          "col_zero_var": 0,
+          "col_mean_min": -0.23042782144949467,
+          "col_mean_max": 1.87434067098209,
+          "col_std_min": 0.0017539474594013035,
+          "col_std_max": 4.325699235075501,
+          "meta_descriptor_dim": 206,
+          "matches_meta_dim": true
+        },
+        "targets": {
+          "n": 3017,
+          "n_nan": 0,
+          "n_inf": 0,
+          "mean": 1.7427962362030963e-16,
+          "std": 1.0,
+          "min": -3.279158514704269,
+          "max": 1.9507505041373845
+        },
+        "graphs": {
+          "n_samples": 3017,
+          "empty_graphs": 0,
+          "atom_feat_len": 6,
+          "bond_feat_len": 4,
+          "inconsistent_atom/bond_feature_lengths": 0
+        },
+        "n_smiles": 3017,
+        "alignment_ok": true
+      },
+      "val": {
+        "desc": {
+          "shape": [
+            392,
+            206
+          ],
+          "n_nan": 0,
+          "n_inf": 0,
+          "any_nonfinite": false,
+          "cols_with_any_nan": 0,
+          "cols_all_nan": 0,
+          "col_zero_var": 1,
+          "col_mean_min": -0.19653872976707804,
+          "col_mean_max": 1.8742797623031315,
+          "col_std_min": 0.0,
+          "col_std_max": 4.308985644695729,
+          "meta_descriptor_dim": 206,
+          "matches_meta_dim": true
+        },
+        "targets": {
+          "n": 392,
+          "n_nan": 0,
+          "n_inf": 0,
+          "mean": 0.04096003794964839,
+          "std": 0.950591929539445,
+          "min": -3.1042451695925077,
+          "max": 1.8632938315815044
+        },
+        "graphs": {
+          "n_samples": 392,
+          "empty_graphs": 0,
+          "atom_feat_len": 6,
+          "bond_feat_len": 4,
+          "inconsistent_atom/bond_feature_lengths": 0
+        },
+        "n_smiles": 392,
+        "alignment_ok": true
+      },
+      "test": {
+        "desc": {
+          "shape": [
+            403,
+            206
+          ],
+          "n_nan": 0,
+          "n_inf": 0,
+          "any_nonfinite": false,
+          "cols_with_any_nan": 0,
+          "cols_all_nan": 0,
+          "col_zero_var": 0,
+          "col_mean_min": -0.27754891973494744,
+          "col_mean_max": 2.1041546586573165,
+          "col_std_min": 0.0016633573481601757,
+          "col_std_max": 3.5663993999423145,
+          "meta_descriptor_dim": 206,
+          "matches_meta_dim": true
+        },
+        "targets": {
+          "n": 403,
+          "n_nan": 0,
+          "n_inf": 0,
+          "mean": -0.13876952490553177,
+          "std": 1.1349981111660281,
+          "min": -3.252921512937504,
+          "max": 1.933259169626209
+        },
+        "graphs": {
+          "n_samples": 403,
+          "empty_graphs": 0,
+          "atom_feat_len": 6,
+          "bond_feat_len": 4,
+          "inconsistent_atom/bond_feature_lengths": 0
+        },
+        "n_smiles": 403,
+        "alignment_ok": true
+      }
+    },
+    "pgp_broccatelli": {
+      "train": {
+        "desc": {
+          "shape": [
+            805,
+            206
+          ],
+          "n_nan": 0,
+          "n_inf": 0,
+          "any_nonfinite": false,
+          "cols_with_any_nan": 0,
+          "cols_all_nan": 0,
+          "col_zero_var": 0,
+          "col_mean_min": -0.7290849543290197,
+          "col_mean_max": 1.387577639751553,
+          "col_std_min": 4.344321958544553e-18,
+          "col_std_max": 3.8174703929077767,
+          "meta_descriptor_dim": 206,
+          "matches_meta_dim": true
+        },
+        "targets": {
+          "n": 805,
+          "n_nan": 0,
+          "n_inf": 0,
+          "unique_vals": {
+            "0.0": 351,
+            "1.0": 454
+          },
+          "valid_binary": true,
+          "pos_rate": 0.5639751552795031
+        },
+        "graphs": {
+          "n_samples": 805,
+          "empty_graphs": 0,
+          "atom_feat_len": 6,
+          "bond_feat_len": 4,
+          "inconsistent_atom/bond_feature_lengths": 0
+        },
+        "n_smiles": 805,
+        "alignment_ok": true
+      },
+      "val": {
+        "desc": {
+          "shape": [
+            98,
+            206
+          ],
+          "n_nan": 0,
+          "n_inf": 0,
+          "any_nonfinite": false,
+          "cols_with_any_nan": 0,
+          "cols_all_nan": 0,
+          "col_zero_var": 3,
+          "col_mean_min": -0.8855625293331579,
+          "col_mean_max": 1.4769985875111964,
+          "col_std_min": 0.0,
+          "col_std_max": 4.760502326108195,
+          "meta_descriptor_dim": 206,
+          "matches_meta_dim": true
+        },
+        "targets": {
+          "n": 98,
+          "n_nan": 0,
+          "n_inf": 0,
+          "unique_vals": {
+            "0.0": 41,
+            "1.0": 57
+          },
+          "valid_binary": true,
+          "pos_rate": 0.5816326530612245
+        },
+        "graphs": {
+          "n_samples": 98,
+          "empty_graphs": 0,
+          "atom_feat_len": 6,
+          "bond_feat_len": 4,
+          "inconsistent_atom/bond_feature_lengths": 0
+        },
+        "n_smiles": 98,
+        "alignment_ok": true
+      },
+      "test": {
+        "desc": {
+          "shape": [
+            112,
+            206
+          ],
+          "n_nan": 0,
+          "n_inf": 0,
+          "any_nonfinite": false,
+          "cols_with_any_nan": 0,
+          "cols_all_nan": 0,
+          "col_zero_var": 2,
+          "col_mean_min": -0.7366000923805313,
+          "col_mean_max": 2.125,
+          "col_std_min": 0.0,
+          "col_std_max": 3.059005850777406,
+          "meta_descriptor_dim": 206,
+          "matches_meta_dim": true
+        },
+        "targets": {
+          "n": 112,
+          "n_nan": 0,
+          "n_inf": 0,
+          "unique_vals": {
+            "0.0": 40,
+            "1.0": 72
+          },
+          "valid_binary": true,
+          "pos_rate": 0.6428571428571429
+        },
+        "graphs": {
+          "n_samples": 112,
+          "empty_graphs": 0,
+          "atom_feat_len": 6,
+          "bond_feat_len": 4,
+          "inconsistent_atom/bond_feature_lengths": 0
+        },
+        "n_smiles": 112,
+        "alignment_ok": true
+      }
+    },
+    "ppbr_az": {
+      "train": {
+        "desc": {
+          "shape": [
+            1127,
+            206
+          ],
+          "n_nan": 0,
+          "n_inf": 0,
+          "any_nonfinite": false,
+          "cols_with_any_nan": 0,
+          "cols_all_nan": 0,
+          "col_zero_var": 0,
+          "col_mean_min": -0.29587547538186276,
+          "col_mean_max": 1.7884010391413951,
+          "col_std_min": 0.002129830397399109,
+          "col_std_max": 4.36865096955676,
+          "meta_descriptor_dim": 206,
+          "matches_meta_dim": true
+        },
+        "targets": {
+          "n": 1127,
+          "n_nan": 0,
+          "n_inf": 0,
+          "mean": -9.803850524462784e-16,
+          "std": 1.0,
+          "min": -5.232427905356376,
+          "max": 0.7017902073206108
+        },
+        "graphs": {
+          "n_samples": 1127,
+          "empty_graphs": 0,
+          "atom_feat_len": 6,
+          "bond_feat_len": 4,
+          "inconsistent_atom/bond_feature_lengths": 0
+        },
+        "n_smiles": 1127,
+        "alignment_ok": true
+      },
+      "val": {
+        "desc": {
+          "shape": [
+            163,
+            206
+          ],
+          "n_nan": 0,
+          "n_inf": 0,
+          "any_nonfinite": false,
+          "cols_with_any_nan": 0,
+          "cols_all_nan": 0,
+          "col_zero_var": 0,
+          "col_mean_min": -0.418900289649926,
+          "col_mean_max": 2.2596964323586946,
+          "col_std_min": 0.0024262754702307587,
+          "col_std_max": 4.768125862477429,
+          "meta_descriptor_dim": 206,
+          "matches_meta_dim": true
+        },
+        "targets": {
+          "n": 163,
+          "n_nan": 0,
+          "n_inf": 0,
+          "mean": -0.14461707828366277,
+          "std": 1.0822157058509305,
+          "min": -5.135496326406487,
+          "max": 0.6984477390809597
+        },
+        "graphs": {
+          "n_samples": 163,
+          "empty_graphs": 0,
+          "atom_feat_len": 6,
+          "bond_feat_len": 4,
+          "inconsistent_atom/bond_feature_lengths": 0
+        },
+        "n_smiles": 163,
+        "alignment_ok": true
+      },
+      "test": {
+        "desc": {
+          "shape": [
+            139,
+            206
+          ],
+          "n_nan": 0,
+          "n_inf": 0,
+          "any_nonfinite": false,
+          "cols_with_any_nan": 0,
+          "cols_all_nan": 0,
+          "col_zero_var": 2,
+          "col_mean_min": -0.35621722901460856,
+          "col_mean_max": 2.556581533689167,
+          "col_std_min": 0.0,
+          "col_std_max": 3.728083712190705,
+          "meta_descriptor_dim": 206,
+          "matches_meta_dim": true
+        },
+        "targets": {
+          "n": 139,
+          "n_nan": 0,
+          "n_inf": 0,
+          "mean": 0.05329365714641528,
+          "std": 0.8261511873006853,
+          "min": -3.849314547788651,
+          "max": 0.6917628026016565
+        },
+        "graphs": {
+          "n_samples": 139,
+          "empty_graphs": 0,
+          "atom_feat_len": 6,
+          "bond_feat_len": 4,
+          "inconsistent_atom/bond_feature_lengths": 0
+        },
+        "n_smiles": 139,
+        "alignment_ok": true
+      }
+    },
+    "vdss_lombardo": {
+      "train": {
+        "desc": {
+          "shape": [
+            782,
+            206
+          ],
+          "n_nan": 0,
+          "n_inf": 0,
+          "any_nonfinite": false,
+          "cols_with_any_nan": 0,
+          "cols_all_nan": 0,
+          "col_zero_var": 0,
+          "col_mean_min": -0.7648064777639707,
+          "col_mean_max": 2.79156010230179,
+          "col_std_min": 0.004700664863195587,
+          "col_std_max": 5.748709093637028,
+          "meta_descriptor_dim": 206,
+          "matches_meta_dim": true
+        },
+        "targets": {
+          "n": 782,
+          "n_nan": 0,
+          "n_inf": 0,
+          "mean": 1.817244848491305e-17,
+          "std": 0.9999999999999999,
+          "min": -0.1807544704646821,
+          "max": 26.126611972082884
+        },
+        "graphs": {
+          "n_samples": 782,
+          "empty_graphs": 0,
+          "atom_feat_len": 6,
+          "bond_feat_len": 4,
+          "inconsistent_atom/bond_feature_lengths": 0
+        },
+        "n_smiles": 782,
+        "alignment_ok": true
+      },
+      "val": {
+        "desc": {
+          "shape": [
+            93,
+            206
+          ],
+          "n_nan": 0,
+          "n_inf": 0,
+          "any_nonfinite": false,
+          "cols_with_any_nan": 0,
+          "cols_all_nan": 0,
+          "col_zero_var": 2,
+          "col_mean_min": -1.26036414986156,
+          "col_mean_max": 2.933667645567349,
+          "col_std_min": 0.0,
+          "col_std_max": 6.082354507240379,
+          "meta_descriptor_dim": 206,
+          "matches_meta_dim": true
+        },
+        "targets": {
+          "n": 93,
+          "n_nan": 0,
+          "n_inf": 0,
+          "mean": -0.07626302779046994,
+          "std": 0.21235128282997767,
+          "min": -0.17962699579607763,
+          "max": 1.0215093511571935
+        },
+        "graphs": {
+          "n_samples": 93,
+          "empty_graphs": 0,
+          "atom_feat_len": 6,
+          "bond_feat_len": 4,
+          "inconsistent_atom/bond_feature_lengths": 0
+        },
+        "n_smiles": 93,
+        "alignment_ok": true
+      },
+      "test": {
+        "desc": {
+          "shape": [
+            75,
+            206
+          ],
+          "n_nan": 0,
+          "n_inf": 0,
+          "any_nonfinite": false,
+          "cols_with_any_nan": 0,
+          "cols_all_nan": 0,
+          "col_zero_var": 1,
+          "col_mean_min": -0.6779561630971281,
+          "col_mean_max": 2.747625811337653,
+          "col_std_min": 0.0,
+          "col_std_max": 6.39974041636539,
+          "meta_descriptor_dim": 206,
+          "matches_meta_dim": true
+        },
+        "targets": {
+          "n": 75,
+          "n_nan": 0,
+          "n_inf": 0,
+          "mean": -0.03313045385540647,
+          "std": 0.2310227357754795,
+          "min": -0.17925117090654283,
+          "max": 1.1481623389304263
+        },
+        "graphs": {
+          "n_samples": 75,
+          "empty_graphs": 0,
+          "atom_feat_len": 6,
+          "bond_feat_len": 4,
+          "inconsistent_atom/bond_feature_lengths": 0
+        },
+        "n_smiles": 75,
+        "alignment_ok": true
+      }
+    }
+  }
+}
