@@ -1,0 +1,16 @@
+task,type,n
+bbb_martins,classification,133
+bioavailability_ma,classification,19
+clearance_hepatocyte_az,regression,83
+clearance_microsome_az,regression,124
+cyp2c9_substrate_carbonmangels,classification,31
+cyp2c9_veith,classification,1164
+cyp2d6_substrate_carbonmangels,classification,31
+cyp2d6_veith,classification,1259
+cyp3a4_substrate_carbonmangels,classification,30
+cyp3a4_veith,classification,1217
+hia_hou,classification,40
+lipophilicity_astrazeneca,regression,403
+pgp_broccatelli,classification,112
+ppbr_az,regression,139
+vdss_lombardo,regression,75
